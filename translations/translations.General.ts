@@ -60,6 +60,11 @@ export const translationsGeneral: General = {
     "general.label.forgot-password": "Recupera password",
     "general.label.errors": "Ops! Il server non sembra essere disponibile :(",
     "general.label.no-results": "Nessun risultato trovato",
+    "general.action.choose": "Scegliere un'opzione",
+    "general.action.camera": "Dalla Camera",
+    "general.action.library": "Dalla Galleria",
+    "general.action.browse": "Browse",
+    "general.action.cancel": "Annulla",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -89,6 +94,11 @@ export const translationsGeneral: General = {
     "general.label.forgot-password": "Forgot password",
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
+    "general.action.choose": "Choose an option",
+    "general.action.camera": "From Camera",
+    "general.action.library": "From Library",
+    "general.action.browse": "Browse",
+    "general.action.cancel": "Cancel",
   },
 };
 

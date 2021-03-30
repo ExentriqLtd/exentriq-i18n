@@ -7,6 +7,7 @@ interface Translations {
   "view.title.user-status": string;
   "view.title.new-room": string;
   "view.title.new-group": string;
+  "view.user.is-typing": string;
 }
 
 interface View {
@@ -22,6 +23,7 @@ export const translationsView: View = {
     "view.title.user-status": "Status",
     "view.title.new-room": "Nuova chat",
     "view.title.new-group": "Crea gruppo",
+    "view.user.is-typing": "sta scrivendo...",
   },
   en: {
     "view.title.chat-list": "Chat",
@@ -30,6 +32,7 @@ export const translationsView: View = {
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
     "view.title.new-group": "Create group",
+    "view.user.is-typing": "is typing...",
   },
 };
 
