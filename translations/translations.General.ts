@@ -25,6 +25,12 @@ export interface Translations {
   "general.label.forgot-password": string;
   "general.label.errors": string;
   "general.label.filter": string;
+  "general.label.no-results": string;
+  "general.action.choose": string;
+  "general.action.camera": string;
+  "general.action.library": string;
+  "general.action.browse": string;
+  "general.action.cancel": string;
 }
 
 interface General {
