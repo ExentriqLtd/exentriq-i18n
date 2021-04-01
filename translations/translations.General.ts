@@ -31,6 +31,8 @@ export interface Translations {
   "general.action.library": string;
   "general.action.browse": string;
   "general.action.cancel": string;
+  "general.action.delete": string,
+  "general.action.copyMessage": string;
 }
 
 interface General {
@@ -71,6 +73,8 @@ export const translationsGeneral: General = {
     "general.action.library": "Dalla Galleria",
     "general.action.browse": "Browse",
     "general.action.cancel": "Annulla",
+    "general.action.delete": "Elimina",
+    "general.action.copyMessage": "Copia Messaggio",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -105,6 +109,8 @@ export const translationsGeneral: General = {
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
     "general.action.cancel": "Cancel",
+    "general.action.delete": "Delete",
+    "general.action.copyMessage": "Copy Message",
   },
 };
 

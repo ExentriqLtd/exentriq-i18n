@@ -19,10 +19,10 @@ export type TTranslation =
   | TTranslationsSideBar
   | TTranslationsGeneral;
 
-interface Params {
+export type TTranslationParams = {
   id: TTranslation;
   locale: TLocale;
 }
 
-export const useTranslation = ({ id, locale }: Params): string =>
+export const useTranslation = ({ id, locale }: TTranslationParams): string =>
   translations[locale][id];
