@@ -1,6 +1,6 @@
 {
   "name": "exentriq-i18n",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Translations utils for Exentriq",
   "main": "index.ts",
   "scripts": {
