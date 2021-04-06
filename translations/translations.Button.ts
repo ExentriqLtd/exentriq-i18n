@@ -6,6 +6,8 @@ interface Translations {
   "button.create-new-group": string;
   "button.logout": string;
   "button.delete.room": string;
+  "button.fab.user": string;
+  "button.fab.group": string;
 }
 
 interface Button {
@@ -20,6 +22,8 @@ export const translationsButton: Button = {
     "button.create-new-group": "Crea gruppo",
     "button.logout": "Esci",
     "button.delete.room": "Nascondi",
+    "button.fab.user": "Chat",
+    "button.fab.group": "Chat di Gruppo",
   },
   en: {
     "button.loading": "Loading...",
@@ -27,6 +31,8 @@ export const translationsButton: Button = {
     "button.create-new-group": "Create New Group",
     "button.logout": "Logout",
     "button.delete.room": "Hide",
+    "button.fab.user": "Direct chat",
+    "button.fab.group": "Group chat",
   },
 };
 
