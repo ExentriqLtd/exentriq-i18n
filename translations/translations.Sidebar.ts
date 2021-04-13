@@ -10,6 +10,9 @@ interface Translations {
 interface Sidebar {
   it: Translations;
   en: Translations;
+  fr: Translations;
+  de: Translations;
+  es: Translations;
 }
 
 export const translationsSidebar: Sidebar = {
@@ -20,6 +23,24 @@ export const translationsSidebar: Sidebar = {
     "sidebar.button.settings": "Impostazioni",
   },
   en: {
+    "sidebar.label.status": "Status",
+    "sidebar.label.manage": "Manage",
+    "sidebar.button.my-page": "My page",
+    "sidebar.button.settings": "Settings",
+  },
+  fr: {
+    "sidebar.label.status": "Status",
+    "sidebar.label.manage": "Manage",
+    "sidebar.button.my-page": "My page",
+    "sidebar.button.settings": "Settings",
+  },
+  de: {
+    "sidebar.label.status": "Status",
+    "sidebar.label.manage": "Manage",
+    "sidebar.button.my-page": "My page",
+    "sidebar.button.settings": "Settings",
+  },
+  es: {
     "sidebar.label.status": "Status",
     "sidebar.label.manage": "Manage",
     "sidebar.button.my-page": "My page",

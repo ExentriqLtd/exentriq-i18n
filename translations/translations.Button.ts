@@ -13,6 +13,9 @@ interface Translations {
 interface Button {
   it: Translations;
   en: Translations;
+  fr: Translations;
+  de: Translations;
+  es: Translations;
 }
 
 export const translationsButton: Button = {
@@ -26,6 +29,33 @@ export const translationsButton: Button = {
     "button.fab.group": "Chat di Gruppo",
   },
   en: {
+    "button.loading": "Loading...",
+    "button.signup-success": "Back to login",
+    "button.create-new-group": "Create New Group",
+    "button.logout": "Logout",
+    "button.delete.room": "Hide",
+    "button.fab.user": "Direct chat",
+    "button.fab.group": "Group chat",
+  },
+  fr: {
+    "button.loading": "Loading...",
+    "button.signup-success": "Back to login",
+    "button.create-new-group": "Create New Group",
+    "button.logout": "Logout",
+    "button.delete.room": "Hide",
+    "button.fab.user": "Direct chat",
+    "button.fab.group": "Group chat",
+  },
+  de: {
+    "button.loading": "Loading...",
+    "button.signup-success": "Back to login",
+    "button.create-new-group": "Create New Group",
+    "button.logout": "Logout",
+    "button.delete.room": "Hide",
+    "button.fab.user": "Direct chat",
+    "button.fab.group": "Group chat",
+  },
+  es: {
     "button.loading": "Loading...",
     "button.signup-success": "Back to login",
     "button.create-new-group": "Create New Group",

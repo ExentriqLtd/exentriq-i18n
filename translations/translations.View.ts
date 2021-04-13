@@ -13,6 +13,9 @@ interface Translations {
 interface View {
   it: Translations;
   en: Translations;
+  fr: Translations;
+  de: Translations;
+  es: Translations;
 }
 
 export const translationsView: View = {
@@ -26,6 +29,33 @@ export const translationsView: View = {
     "view.user.is-typing": "sta scrivendo...",
   },
   en: {
+    "view.title.chat-list": "Chat",
+    "view.title.call-list": "Calls",
+    "view.title.settings": "Settings",
+    "view.title.user-status": "Status",
+    "view.title.new-room": "New chat",
+    "view.title.new-group": "Create group",
+    "view.user.is-typing": "is typing...",
+  },
+  fr: {
+    "view.title.chat-list": "Chat",
+    "view.title.call-list": "Calls",
+    "view.title.settings": "Settings",
+    "view.title.user-status": "Status",
+    "view.title.new-room": "New chat",
+    "view.title.new-group": "Create group",
+    "view.user.is-typing": "is typing...",
+  },
+  de: {
+    "view.title.chat-list": "Chat",
+    "view.title.call-list": "Calls",
+    "view.title.settings": "Settings",
+    "view.title.user-status": "Status",
+    "view.title.new-room": "New chat",
+    "view.title.new-group": "Create group",
+    "view.user.is-typing": "is typing...",
+  },
+  es: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Calls",
     "view.title.settings": "Settings",

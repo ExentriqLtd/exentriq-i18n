@@ -17,6 +17,9 @@ interface Translations {
 interface Header {
   it: Translations;
   en: Translations;
+  fr: Translations;
+  de: Translations;
+  es: Translations;
 }
 
 export const translationsHeader: Header = {
@@ -34,6 +37,45 @@ export const translationsHeader: Header = {
     "header.text.back": "Indietro",
   },
   en: {
+    "header.title.login": "Login",
+    "header.title.language": "Language",
+    "header.title.profile": "Profile",
+    "header.title.user-status": "Status",
+    "header.title.new-group": "Create",
+    "header.button.forward": "Continue",
+    "header.title.signup": "Signup",
+    "header.title.reset-password": "Recovery password",
+    "header.title.new-message": "New Message",
+    "header.title.new-call": "New call",
+    "header.text.back": "Back",
+  },
+  fr: {
+    "header.title.login": "Login",
+    "header.title.language": "Language",
+    "header.title.profile": "Profile",
+    "header.title.user-status": "Status",
+    "header.title.new-group": "Create",
+    "header.button.forward": "Continue",
+    "header.title.signup": "Signup",
+    "header.title.reset-password": "Recovery password",
+    "header.title.new-message": "New Message",
+    "header.title.new-call": "New call",
+    "header.text.back": "Back",
+  },
+  de: {
+    "header.title.login": "Login",
+    "header.title.language": "Language",
+    "header.title.profile": "Profile",
+    "header.title.user-status": "Status",
+    "header.title.new-group": "Create",
+    "header.button.forward": "Continue",
+    "header.title.signup": "Signup",
+    "header.title.reset-password": "Recovery password",
+    "header.title.new-message": "New Message",
+    "header.title.new-call": "New call",
+    "header.text.back": "Back",
+  },
+  es: {
     "header.title.login": "Login",
     "header.title.language": "Language",
     "header.title.profile": "Profile",

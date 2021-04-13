@@ -9,6 +9,9 @@ interface Translations {
 interface Tabs {
   it: Translations;
   en: Translations;
+  fr: Translations;
+  de: Translations;
+  es: Translations;
 }
 
 export const translationsTabs: Tabs = {
@@ -18,6 +21,21 @@ export const translationsTabs: Tabs = {
     "tabs.label.settings": "Impostazioni",
   },
   en: {
+    "tabs.label.chat": "Chat",
+    "tabs.label.calls": "Calls",
+    "tabs.label.settings": "Settings",
+  },
+  fr: {
+    "tabs.label.chat": "Chat",
+    "tabs.label.calls": "Calls",
+    "tabs.label.settings": "Settings",
+  },
+  de: {
+    "tabs.label.chat": "Chat",
+    "tabs.label.calls": "Calls",
+    "tabs.label.settings": "Settings",
+  },
+  es: {
     "tabs.label.chat": "Chat",
     "tabs.label.calls": "Calls",
     "tabs.label.settings": "Settings",
