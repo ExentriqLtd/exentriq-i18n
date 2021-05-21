@@ -43,7 +43,7 @@ export interface Translations {
   "general.label.added": string;
   "general.label.removed": string;
   "general.label.renamedGroup": string;
-
+  "general.label.activateTranslation": string;
 }
 
 interface General {
@@ -99,6 +99,7 @@ export const translationsGeneral: General = {
     "general.label.added": "ha aggiunto",
     "general.label.removed": "ha rimosso",
     "general.label.renamedGroup": "ha rinominato il gruppo",
+    "general.label.activateTranslation": "Attiva la traduzione",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -145,6 +146,7 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
+    "general.label.activateTranslation": "Activate translation",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -191,6 +193,7 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
+    "general.label.activateTranslation": "Activate translation",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -237,6 +240,7 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
+    "general.label.activateTranslation": "Activate translation",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -283,6 +287,7 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
+    "general.label.activateTranslation": "Activate translation",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -322,6 +327,7 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
+    "general.label.activateTranslation": "Activate translation",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -361,6 +367,7 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
+    "general.label.activateTranslation": "Activate translation",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -400,6 +407,7 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
+    "general.label.activateTranslation": "Activate translation",
   },
 };
 
