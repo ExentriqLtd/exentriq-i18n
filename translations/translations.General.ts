@@ -40,6 +40,10 @@ export interface Translations {
   "general.label.chatList": string;
   "general.label.messages": string;
   "general.label.loadMore": string;
+  "general.label.added": string;
+  "general.label.removed": string;
+  "general.label.renamedGroup": string;
+
 }
 
 interface General {
@@ -92,6 +96,9 @@ export const translationsGeneral: General = {
     "general.label.chatList": "Lista chat",
     "general.label.messages": "Messaggi",
     "general.label.loadMore": "Carica di più",
+    "general.label.added": "ha aggiunto",
+    "general.label.removed": "ha rimosso",
+    "general.label.renamedGroup": "ha rinominato il gruppo",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -135,6 +142,9 @@ export const translationsGeneral: General = {
     "general.label.chatList": "Chat List",
     "general.label.messages": "Messages",
     "general.label.loadMore": "Load More",
+    "general.label.added": "added",
+    "general.label.removed": "removed",
+    "general.label.renamedGroup": "renamed the group",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -178,6 +188,9 @@ export const translationsGeneral: General = {
     "general.label.chatList": "Liste de chat",
     "general.label.messages": "Messages",
     "general.label.loadMore": "Charger plus",
+    "general.label.added": "added",
+    "general.label.removed": "removed",
+    "general.label.renamedGroup": "renamed the group",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -221,6 +234,9 @@ export const translationsGeneral: General = {
     "general.label.chatList": "Chat-Liste",
     "general.label.messages": "Mitteilungen",
     "general.label.loadMore": "Mehr laden",
+    "general.label.added": "added",
+    "general.label.removed": "removed",
+    "general.label.renamedGroup": "renamed the group",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -264,6 +280,9 @@ export const translationsGeneral: General = {
     "general.label.chatList": "Lista de chat",
     "general.label.messages": "mensajes",
     "general.label.loadMore": "Carga más",
+    "general.label.added": "added",
+    "general.label.removed": "removed",
+    "general.label.renamedGroup": "renamed the group",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -300,6 +319,9 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancel",
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
+    "general.label.added": "added",
+    "general.label.removed": "removed",
+    "general.label.renamedGroup": "renamed the group",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -336,6 +358,9 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancel",
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
+    "general.label.added": "added",
+    "general.label.removed": "removed",
+    "general.label.renamedGroup": "renamed the group",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -372,6 +397,9 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancel",
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
+    "general.label.added": "added",
+    "general.label.removed": "removed",
+    "general.label.renamedGroup": "renamed the group",
   },
 };
 
