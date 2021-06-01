@@ -99,8 +99,8 @@ export const translationsGeneral: General = {
     "general.label.added": "ha aggiunto",
     "general.label.removed": "ha rimosso",
     "general.label.renamedGroup": "ha rinominato il gruppo",
-    "general.label.activateTranslation": "Attiva la traduzione",
-    "general.label.openProfile": "Dettagli chat",
+    "general.label.activateTranslation": "Attiva la Traduzione",
+    "general.label.openProfile": "Dettagli Chat",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -147,8 +147,8 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
-    "general.label.activateTranslation": "Activate translation",
-    "general.label.openProfile": "Chat details",
+    "general.label.activateTranslation": "Activate Translation",
+    "general.label.openProfile": "Chat Details",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -195,8 +195,8 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
-    "general.label.activateTranslation": "Activate translation",
-    "general.label.openProfile": "Chat details",
+    "general.label.activateTranslation": "Activate Translation",
+    "general.label.openProfile": "Chat Details",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -243,8 +243,8 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
-    "general.label.activateTranslation": "Activate translation",
-    "general.label.openProfile": "Chat details",
+    "general.label.activateTranslation": "Activate Translation",
+    "general.label.openProfile": "Chat Details",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -291,8 +291,8 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
-    "general.label.activateTranslation": "Activate translation",
-    "general.label.openProfile": "Chat details",
+    "general.label.activateTranslation": "Activate Translation",
+    "general.label.openProfile": "Chat Details",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -332,8 +332,8 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
-    "general.label.activateTranslation": "Activate translation",
-    "general.label.openProfile": "Chat details",
+    "general.label.activateTranslation": "Activate Translation",
+    "general.label.openProfile": "Chat Details",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -373,8 +373,8 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
-    "general.label.activateTranslation": "Activate translation",
-    "general.label.openProfile": "Chat details",
+    "general.label.activateTranslation": "Activate Translation",
+    "general.label.openProfile": "Chat Details",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -414,8 +414,8 @@ export const translationsGeneral: General = {
     "general.label.added": "added",
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
-    "general.label.activateTranslation": "Activate translation",
-    "general.label.openProfile": "Chat details",
+    "general.label.activateTranslation": "Activate Translation",
+    "general.label.openProfile": "Chat Details",
   },
 };
 
