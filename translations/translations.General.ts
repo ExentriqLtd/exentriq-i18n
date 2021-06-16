@@ -44,7 +44,11 @@ export interface Translations {
   "general.label.removed": string;
   "general.label.renamedGroup": string;
   "general.label.activateTranslation": string;
+  "general.label.deActivateTranslation": string;
   "general.label.openProfile": string;
+  "general.label.removeTranslation": string;
+  "general.label.yes": string;
+  "general.label.no": string;
 }
 
 interface General {
@@ -101,7 +105,11 @@ export const translationsGeneral: General = {
     "general.label.removed": "ha rimosso",
     "general.label.renamedGroup": "ha rinominato il gruppo",
     "general.label.activateTranslation": "Attiva la Traduzione",
+    "general.label.deActivateTranslation": "Disattiva la Traduzione",
     "general.label.openProfile": "Dettagli Chat",
+    "general.label.removeTranslation": "Vuoi disattivare la traduzione in questa chat?",
+    "general.label.yes": "Si",
+    "general.label.no": "No",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -149,7 +157,11 @@ export const translationsGeneral: General = {
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
     "general.label.activateTranslation": "Activate Translation",
+    "general.label.deActivateTranslation": "Remove Translation",
     "general.label.openProfile": "Chat Details",
+    "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
+    "general.label.yes": "Yes",
+    "general.label.no": "No",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -197,7 +209,11 @@ export const translationsGeneral: General = {
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
     "general.label.activateTranslation": "Activate Translation",
+    "general.label.deActivateTranslation": "Remove Translation",
     "general.label.openProfile": "Chat Details",
+    "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
+    "general.label.yes": "Yes",
+    "general.label.no": "No",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -245,7 +261,11 @@ export const translationsGeneral: General = {
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
     "general.label.activateTranslation": "Activate Translation",
+    "general.label.deActivateTranslation": "Remove Translation",
     "general.label.openProfile": "Chat Details",
+    "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
+    "general.label.yes": "Yes",
+    "general.label.no": "No",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -293,7 +313,11 @@ export const translationsGeneral: General = {
     "general.label.removed": "removed",
     "general.label.renamedGroup": "renamed the group",
     "general.label.activateTranslation": "Activate Translation",
+    "general.label.deActivateTranslation": "Remove Translation",
     "general.label.openProfile": "Chat Details",
+    "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
+    "general.label.yes": "Yes",
+    "general.label.no": "No",
   },
 };
 
