@@ -49,6 +49,8 @@ export interface Translations {
   "general.label.removeTranslation": string;
   "general.label.yes": string;
   "general.label.no": string;
+  "general.label.addNewGroup": string;
+  "general.label.nothingFound": string;
 }
 
 interface General {
@@ -110,6 +112,8 @@ export const translationsGeneral: General = {
     "general.label.removeTranslation": "Vuoi disattivare la traduzione in questa chat?",
     "general.label.yes": "Si",
     "general.label.no": "No",
+    "general.label.addNewGroup": "Nuovo gruppo",
+    "general.label.nothingFound": "Nessun elemento trovato",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -162,6 +166,8 @@ export const translationsGeneral: General = {
     "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
     "general.label.yes": "Yes",
     "general.label.no": "No",
+    "general.label.addNewGroup": "New group",
+    "general.label.nothingFound": "Nothing Found",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -214,6 +220,8 @@ export const translationsGeneral: General = {
     "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
     "general.label.yes": "Yes",
     "general.label.no": "No",
+    "general.label.addNewGroup": "New group",
+    "general.label.nothingFound": "Nothing Found",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -266,6 +274,8 @@ export const translationsGeneral: General = {
     "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
     "general.label.yes": "Yes",
     "general.label.no": "No",
+    "general.label.addNewGroup": "New group",
+    "general.label.nothingFound": "Nothing Found",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -318,6 +328,8 @@ export const translationsGeneral: General = {
     "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
     "general.label.yes": "Yes",
     "general.label.no": "No",
+    "general.label.addNewGroup": "New group",
+    "general.label.nothingFound": "Nothing Found",
   },
 };
 
