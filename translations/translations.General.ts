@@ -51,6 +51,7 @@ export interface Translations {
   "general.label.no": string;
   "general.label.addNewGroup": string;
   "general.label.nothingFound": string;
+  "general.label.searchUser": string;
 }
 
 interface General {
@@ -114,6 +115,7 @@ export const translationsGeneral: General = {
     "general.label.no": "No",
     "general.label.addNewGroup": "Nuovo gruppo",
     "general.label.nothingFound": "Nessun elemento trovato",
+    "general.label.searchUser": "Cerca Utente",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -168,6 +170,7 @@ export const translationsGeneral: General = {
     "general.label.no": "No",
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
+    "general.label.searchUser": "Search User",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -222,6 +225,7 @@ export const translationsGeneral: General = {
     "general.label.no": "No",
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
+    "general.label.searchUser": "Search User",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -276,6 +280,7 @@ export const translationsGeneral: General = {
     "general.label.no": "No",
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
+    "general.label.searchUser": "Search User",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -330,6 +335,7 @@ export const translationsGeneral: General = {
     "general.label.no": "No",
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
+    "general.label.searchUser": "Search User",
   },
 };
 
