@@ -37,6 +37,8 @@ export interface Translations {
   "general.action.delete": string;
   "general.action.copyMessage": string;
   "general.action.replyMessage": string;
+  "general.action.forwardMessage": string;
+  "general.label.forwardedMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
   "general.label.messages": string;
@@ -102,6 +104,8 @@ export const translationsGeneral: General = {
     "general.action.delete": "Elimina",
     "general.action.copyMessage": "Copia Messaggio",
     "general.action.replyMessage": "Rispondi",
+    "general.action.forwardMessage": "Forward",
+    "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Cerca Messaggi",
     "general.label.chatList": "Lista chat",
     "general.label.messages": "Messaggi",
@@ -158,6 +162,8 @@ export const translationsGeneral: General = {
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Reply",
+    "general.action.forwardMessage": "Forward",
+    "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat List",
     "general.label.messages": "Messages",
@@ -214,6 +220,8 @@ export const translationsGeneral: General = {
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Réponse",
+    "general.action.forwardMessage": "Forward",
+    "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Liste de chat",
     "general.label.messages": "Messages",
@@ -270,6 +278,8 @@ export const translationsGeneral: General = {
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Antworten",
+    "general.action.forwardMessage": "Forward",
+    "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat-Liste",
     "general.label.messages": "Mitteilungen",
@@ -326,6 +336,8 @@ export const translationsGeneral: General = {
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Respuesta",
+    "general.action.forwardMessage": "Forward",
+    "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Muscar mensajes",
     "general.label.chatList": "Lista de chat",
     "general.label.messages": "mensajes",
