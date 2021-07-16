@@ -36,6 +36,7 @@ export interface Translations {
   "general.action.cancel": string;
   "general.action.delete": string;
   "general.action.copyMessage": string;
+  "general.action.replyMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
   "general.label.messages": string;
@@ -100,6 +101,7 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Annulla",
     "general.action.delete": "Elimina",
     "general.action.copyMessage": "Copia Messaggio",
+    "general.action.replyMessage": "Rispondi",
     "general.label.searchMessages": "Cerca Messaggi",
     "general.label.chatList": "Lista chat",
     "general.label.messages": "Messaggi",
@@ -155,6 +157,7 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancel",
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
+    "general.action.replyMessage": "Reply",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat List",
     "general.label.messages": "Messages",
@@ -210,6 +213,7 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancel",
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
+    "general.action.replyMessage": "Réponse",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Liste de chat",
     "general.label.messages": "Messages",
@@ -265,6 +269,7 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancel",
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
+    "general.action.replyMessage": "Antworten",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat-Liste",
     "general.label.messages": "Mitteilungen",
@@ -320,6 +325,7 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancel",
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
+    "general.action.replyMessage": "Respuesta",
     "general.label.searchMessages": "Muscar mensajes",
     "general.label.chatList": "Lista de chat",
     "general.label.messages": "mensajes",
