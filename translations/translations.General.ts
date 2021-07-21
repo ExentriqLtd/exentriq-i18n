@@ -12,6 +12,7 @@ export interface Translations {
   "general.message.start-conversation": string;
   "general.message.new": string;
   "general.messsage.jump-recent": string;
+  "general.message.read-more": string;
   "general.item.language": string;
   "general.label.edit": string;
   "general.label.end": string;
@@ -79,6 +80,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation" : "Inizio della conversazione",
     "general.message.new": "Nuovo Messaggio",
     "general.messsage.jump-recent": "Salta ai messaggi recenti",
+    "general.message.read-more": "Continua a leggere",
     "general.item.language": "Lingua",
     "general.label.edit": "Modifica",
     "general.label.end": "Fine",
@@ -137,6 +139,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation" : "Start of conversation",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Jump to recent messages",
+    "general.message.read-more": "Read more",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
@@ -195,6 +198,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation" : "Début de la conversation",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Aller aux messages récents",
+    "general.message.read-more": "Lire la suite",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
@@ -253,6 +257,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation" : "Beginn der Konversation",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Neue Nachricht im Chat anzeigen",
+    "general.message.read-more": "Weiterlesen",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
@@ -311,6 +316,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation" : "Inicio de la conversación",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Ir a mensajes recientes",
+    "general.message.read-more": "Lee mas",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
