@@ -61,6 +61,9 @@ export interface Translations {
   "general.label.addNewGroup": string;
   "general.label.nothingFound": string;
   "general.label.searchUser": string;
+  "general.label.inviteUsers": string;
+  "general.label.invited": string;
+  "general.meet.inProgress": string;
 }
 
 interface General {
@@ -134,6 +137,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "Nuovo gruppo",
     "general.label.nothingFound": "Nessun elemento trovato",
     "general.label.searchUser": "Cerca Utente",
+    "general.label.inviteUsers": "Invita Utenti",
+    "general.label.invited": "Invitato",
+    "general.meet.inProgress": "Chiamata in corso",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -198,6 +204,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.invited": "Invited",
+    "general.meet.inProgress": "Call in progress",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -262,6 +271,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.invited": "Invited",
+    "general.meet.inProgress": "Call in progress",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -326,6 +338,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.invited": "Invited",
+    "general.meet.inProgress": "Call in progress",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -390,6 +405,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.invited": "Invited",
+    "general.meet.inProgress": "Call in progress",
   },
 };
 
