@@ -64,6 +64,16 @@ export interface Translations {
   "general.label.inviteUsers": string;
   "general.label.invited": string;
   "general.meet.inProgress": string;
+  "general.meet.another-call-is-in-progress": string;
+  "general.meet.call": string;
+  "general.meet.invite": string;
+  "general.meet.to-this-call": string;
+  "general.meet.is-calling": string;
+  "general.meet.would-you-like-to-hangup": string;
+  "general.meet.hangup": string;
+  "general.meet.answer": string;
+  "general.meet.decline": string;
+  "general.meet.join": string;
 }
 
 interface General {
@@ -140,6 +150,16 @@ export const translationsGeneral: General = {
     "general.label.inviteUsers": "Invita Utenti",
     "general.label.invited": "Invitato",
     "general.meet.inProgress": "Chiamata in corso",
+    "general.meet.another-call-is-in-progress": "Un'altra chiamata è in corso",
+    "general.meet.call": "Talk Call",
+    "general.meet.invite": "Invita",
+    "general.meet.to-this-call": "a questa chiamata",
+    "general.meet.is-calling": "stà chiamando",
+    "general.meet.would-you-like-to-hangup": "Vuoi riattaccare?",
+    "general.meet.hangup": "Riaggancia",
+    "general.meet.answer": "Risposta",
+    "general.meet.decline": "Rifiuta",
+    "general.meet.join": "Accedi",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -206,7 +226,17 @@ export const translationsGeneral: General = {
     "general.label.searchUser": "Search User",
     "general.label.inviteUsers": "Invite Users",
     "general.label.invited": "Invited",
+    "general.meet.to-this-call": "to this call.",
     "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.invite": "Invite",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -273,7 +303,17 @@ export const translationsGeneral: General = {
     "general.label.searchUser": "Search User",
     "general.label.inviteUsers": "Invite Users",
     "general.label.invited": "Invited",
+    "general.meet.invite": "Invite",
+    "general.meet.to-this-call": "to this call.",
     "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -341,6 +381,16 @@ export const translationsGeneral: General = {
     "general.label.inviteUsers": "Invite Users",
     "general.label.invited": "Invited",
     "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.invite": "Invite",
+    "general.meet.to-this-call": "to this call.",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -408,6 +458,16 @@ export const translationsGeneral: General = {
     "general.label.inviteUsers": "Invite Users",
     "general.label.invited": "Invited",
     "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.invite": "Invite",
+    "general.meet.to-this-call": "to this call.",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
 };
 
