@@ -63,8 +63,8 @@ export interface Translations {
   "general.label.searchUser": string;
   "general.label.inviteUsers": string;
   "general.label.invited": string;
-  "general.label.searchLanguage": string,
-  "general.label.languageSelect": string,
+  "general.label.searchLanguage": string;
+  "general.label.languageSelect": string;
   "general.meet.inProgress": string;
   "general.meet.another-call-is-in-progress": string;
   "general.meet.call": string;
