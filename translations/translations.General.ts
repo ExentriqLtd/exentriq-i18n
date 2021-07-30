@@ -63,6 +63,8 @@ export interface Translations {
   "general.label.searchUser": string;
   "general.label.inviteUsers": string;
   "general.label.invited": string;
+  "general.label.searchLanguage": string,
+  "general.label.languageSelect": string,
   "general.meet.inProgress": string;
   "general.meet.another-call-is-in-progress": string;
   "general.meet.call": string;
@@ -148,6 +150,8 @@ export const translationsGeneral: General = {
     "general.label.nothingFound": "Nessun elemento trovato",
     "general.label.searchUser": "Cerca Utente",
     "general.label.inviteUsers": "Invita Utenti",
+    "general.label.searchLanguage": "Cerca lingua",
+    "general.label.languageSelect": "Seleziona Lingua",
     "general.label.invited": "Invitato",
     "general.meet.inProgress": "Chiamata in corso",
     "general.meet.another-call-is-in-progress": "Un'altra chiamata è in corso",
@@ -225,6 +229,8 @@ export const translationsGeneral: General = {
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
     "general.label.inviteUsers": "Invite Users",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
     "general.label.invited": "Invited",
     "general.meet.to-this-call": "to this call.",
     "general.meet.inProgress": "Call in progress",
@@ -303,6 +309,8 @@ export const translationsGeneral: General = {
     "general.label.searchUser": "Search User",
     "general.label.inviteUsers": "Invite Users",
     "general.label.invited": "Invited",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
     "general.meet.invite": "Invite",
     "general.meet.to-this-call": "to this call.",
     "general.meet.inProgress": "Call in progress",
@@ -380,6 +388,8 @@ export const translationsGeneral: General = {
     "general.label.searchUser": "Search User",
     "general.label.inviteUsers": "Invite Users",
     "general.label.invited": "Invited",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
     "general.meet.inProgress": "Call in progress",
     "general.meet.another-call-is-in-progress": "Another call is in progress",
     "general.meet.call": "Meet Call",
@@ -457,6 +467,8 @@ export const translationsGeneral: General = {
     "general.label.searchUser": "Search User",
     "general.label.inviteUsers": "Invite Users",
     "general.label.invited": "Invited",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
     "general.meet.inProgress": "Call in progress",
     "general.meet.another-call-is-in-progress": "Another call is in progress",
     "general.meet.call": "Meet Call",
