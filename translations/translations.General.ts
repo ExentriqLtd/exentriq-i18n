@@ -36,6 +36,7 @@ export interface Translations {
   "general.label.filter": string;
   "general.label.no-results": string;
   "general.action.choose": string;
+  "general.action.location": string;
   "general.action.camera": string;
   "general.action.library": string;
   "general.action.browse": string;
@@ -124,6 +125,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Il server non sembra essere disponibile :(",
     "general.label.no-results": "Nessun risultato trovato",
     "general.action.choose": "Scegliere un'opzione",
+    "general.action.location": "Posizione",
     "general.action.camera": "Dalla Camera",
     "general.action.library": "Dalla Galleria",
     "general.action.browse": "Browse",
@@ -203,6 +205,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Location",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
@@ -282,6 +285,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Position",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
@@ -361,6 +365,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Position",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
@@ -440,6 +445,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Posición",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
