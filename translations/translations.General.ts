@@ -38,6 +38,7 @@ export interface Translations {
   "general.action.copyMessage": string;
   "general.action.replyMessage": string;
   "general.action.forwardMessage": string;
+  "general.action.sendLocationWarning":string;
   "general.label.forwardedMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
@@ -55,6 +56,7 @@ export interface Translations {
   "general.label.addNewGroup": string;
   "general.label.nothingFound": string;
   "general.label.searchUser": string;
+
 }
 
 interface General {
@@ -105,6 +107,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copia Messaggio",
     "general.action.replyMessage": "Rispondi",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Cerca Messaggi",
     "general.label.chatList": "Lista chat",
@@ -163,6 +166,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Reply",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"To send the location, enter the full address or select the one suggested.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat List",
@@ -221,6 +225,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Réponse",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Liste de chat",
@@ -279,6 +284,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Antworten",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat-Liste",
@@ -337,6 +343,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Respuesta",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Muscar mensajes",
     "general.label.chatList": "Lista de chat",
