@@ -23,6 +23,7 @@ export interface Translations {
   "form.new-group.name": string;
   "form.message.input": string;
   "form.searchbar.user": string;
+  "form.location.sharing": string;
 }
 
 interface Form {
@@ -57,6 +58,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Nome del gruppo",
     "form.message.input": "Scrivi...",
     "form.searchbar.user": "Cerca",
+    "form.location.sharing": "Inserisci la posizione",
   },
   en: {
     "form.login.username": "Username",
@@ -81,6 +83,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Group Name",
     "form.message.input": "Write...",
     "form.searchbar.user": "Search",
+    "form.location.sharing": "Enter location",
   },
   fr: {
     "form.login.username": "Username",
@@ -105,6 +108,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Group Name",
     "form.message.input": "Write...",
     "form.searchbar.user": "Search",
+    "form.location.sharing": "Entrer l'emplacement",
   },
   de: {
     "form.login.username": "Username",
@@ -129,6 +133,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Group Name",
     "form.message.input": "Write...",
     "form.searchbar.user": "Search",
+    "form.location.sharing": "Ort eingeben",
   },
   es: {
     "form.login.username": "Username",
@@ -153,6 +158,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Group Name",
     "form.message.input": "Write...",
     "form.searchbar.user": "Search",
+    "form.location.sharing": "Ingrese la ubicación",
   },
 };
 

@@ -12,6 +12,12 @@ export interface Translations {
   "general.message.start-conversation": string;
   "general.message.new": string;
   "general.messsage.jump-recent": string;
+  "general.message.read-more": string;
+  "general.message.reply.label": string;
+  "general.message.reply.image": string;
+  "general.message.reply.video": string;
+  "general.message.reply.audio": string;
+  "general.message.reply.file": string;
   "general.item.language": string;
   "general.label.edit": string;
   "general.label.end": string;
@@ -30,6 +36,7 @@ export interface Translations {
   "general.label.filter": string;
   "general.label.no-results": string;
   "general.action.choose": string;
+  "general.action.location": string;
   "general.action.camera": string;
   "general.action.library": string;
   "general.action.browse": string;
@@ -56,7 +63,21 @@ export interface Translations {
   "general.label.addNewGroup": string;
   "general.label.nothingFound": string;
   "general.label.searchUser": string;
-
+  "general.label.inviteUsers": string;
+  "general.label.invited": string;
+  "general.label.searchLanguage": string;
+  "general.label.languageSelect": string;
+  "general.meet.inProgress": string;
+  "general.meet.another-call-is-in-progress": string;
+  "general.meet.call": string;
+  "general.meet.invite": string;
+  "general.meet.to-this-call": string;
+  "general.meet.is-calling": string;
+  "general.meet.would-you-like-to-hangup": string;
+  "general.meet.hangup": string;
+  "general.meet.answer": string;
+  "general.meet.decline": string;
+  "general.meet.join": string;
 }
 
 interface General {
@@ -78,9 +99,15 @@ export const translationsGeneral: General = {
     "general.message.loading": "Caricamento in corso...",
     "general.message.no-rooms": "Nessuna chat avviata",
     "general.message.no-user-found": "Nessun utente trovato",
-    "general.message.start-conversation" : "Inizio della conversazione",
+    "general.message.start-conversation": "Inizio della conversazione",
     "general.message.new": "Nuovo Messaggio",
     "general.messsage.jump-recent": "Salta ai messaggi recenti",
+    "general.message.read-more": "Continua a leggere",
+    "general.message.reply.label": "Tu",
+    "general.message.reply.image": "Immagine",
+    "general.message.reply.video": "Video",
+    "general.message.reply.audio": "Audio",
+    "general.message.reply.file": "File",
     "general.item.language": "Lingua",
     "general.label.edit": "Modifica",
     "general.label.end": "Fine",
@@ -99,6 +126,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Il server non sembra essere disponibile :(",
     "general.label.no-results": "Nessun risultato trovato",
     "general.action.choose": "Scegliere un'opzione",
+    "general.action.location": "Posizione",
     "general.action.camera": "Dalla Camera",
     "general.action.library": "Dalla Galleria",
     "general.action.browse": "Browse",
@@ -125,6 +153,21 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "Nuovo gruppo",
     "general.label.nothingFound": "Nessun elemento trovato",
     "general.label.searchUser": "Cerca Utente",
+    "general.label.inviteUsers": "Invita Utenti",
+    "general.label.searchLanguage": "Cerca lingua",
+    "general.label.languageSelect": "Seleziona Lingua",
+    "general.label.invited": "Invitato",
+    "general.meet.inProgress": "Chiamata in corso",
+    "general.meet.another-call-is-in-progress": "Un'altra chiamata è in corso",
+    "general.meet.call": "Talk Call",
+    "general.meet.invite": "Invita",
+    "general.meet.to-this-call": "a questa chiamata",
+    "general.meet.is-calling": "stà chiamando",
+    "general.meet.would-you-like-to-hangup": "Vuoi riattaccare?",
+    "general.meet.hangup": "Riaggancia",
+    "general.meet.answer": "Risposta",
+    "general.meet.decline": "Rifiuta",
+    "general.meet.join": "Accedi",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -137,9 +180,15 @@ export const translationsGeneral: General = {
     "general.message.loading": "Loading...",
     "general.message.no-rooms": "No rooms",
     "general.message.no-user-found": "User not found",
-    "general.message.start-conversation" : "Start of conversation",
+    "general.message.start-conversation": "Start of conversation",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Jump to recent messages",
+    "general.message.read-more": "Read more",
+    "general.message.reply.label": "You",
+    "general.message.reply.image": "Image",
+    "general.message.reply.video": "Video",
+    "general.message.reply.audio": "Audio",
+    "general.message.reply.file": "File",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
@@ -158,6 +207,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Location",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
@@ -184,6 +234,21 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
+    "general.label.invited": "Invited",
+    "general.meet.to-this-call": "to this call.",
+    "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.invite": "Invite",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -196,9 +261,15 @@ export const translationsGeneral: General = {
     "general.message.loading": "Loading...",
     "general.message.no-rooms": "No rooms",
     "general.message.no-user-found": "User not found",
-    "general.message.start-conversation" : "Début de la conversation",
+    "general.message.start-conversation": "Début de la conversation",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Aller aux messages récents",
+    "general.message.read-more": "Lire la suite",
+    "general.message.reply.label": "Toi",
+    "general.message.reply.image": "Image",
+    "general.message.reply.video": "Vidèo",
+    "general.message.reply.audio": "Audio",
+    "general.message.reply.file": "File",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
@@ -217,6 +288,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Position",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
@@ -243,6 +315,21 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.invited": "Invited",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
+    "general.meet.invite": "Invite",
+    "general.meet.to-this-call": "to this call.",
+    "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -255,9 +342,15 @@ export const translationsGeneral: General = {
     "general.message.loading": "Loading...",
     "general.message.no-rooms": "No rooms",
     "general.message.no-user-found": "User not found",
-    "general.message.start-conversation" : "Beginn der Konversation",
+    "general.message.start-conversation": "Beginn der Konversation",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Neue Nachricht im Chat anzeigen",
+    "general.message.read-more": "Weiterlesen",
+    "general.message.reply.label": "Sie",
+    "general.message.reply.image": "Bild",
+    "general.message.reply.video": "Video",
+    "general.message.reply.audio": "Audio",
+    "general.message.reply.file": "Datei",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
@@ -276,6 +369,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Position",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
@@ -302,6 +396,21 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.invited": "Invited",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
+    "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.invite": "Invite",
+    "general.meet.to-this-call": "to this call.",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -314,9 +423,15 @@ export const translationsGeneral: General = {
     "general.message.loading": "Loading...",
     "general.message.no-rooms": "No rooms",
     "general.message.no-user-found": "User not found",
-    "general.message.start-conversation" : "Inicio de la conversación",
+    "general.message.start-conversation": "Inicio de la conversación",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Ir a mensajes recientes",
+    "general.message.read-more": "Lee mas",
+    "general.message.reply.label": "Tù",
+    "general.message.reply.image": "Imagen",
+    "general.message.reply.video": "Video",
+    "general.message.reply.audio": "Audio",
+    "general.message.reply.file": "File",
     "general.item.language": "Language",
     "general.label.edit": "Edit",
     "general.label.end": "End",
@@ -335,6 +450,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
     "general.action.choose": "Choose an option",
+    "general.action.location": "Posición",
     "general.action.camera": "From Camera",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
@@ -361,6 +477,21 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "New group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
+    "general.label.inviteUsers": "Invite Users",
+    "general.label.invited": "Invited",
+    "general.label.searchLanguage": "Search Language",
+    "general.label.languageSelect": "Select Language",
+    "general.meet.inProgress": "Call in progress",
+    "general.meet.another-call-is-in-progress": "Another call is in progress",
+    "general.meet.call": "Meet Call",
+    "general.meet.invite": "Invite",
+    "general.meet.to-this-call": "to this call.",
+    "general.meet.is-calling": "is calling",
+    "general.meet.would-you-like-to-hangup": "Would you like to hangup?",
+    "general.meet.hangup": "Hangup",
+    "general.meet.answer": "Answer",
+    "general.meet.decline": "Decline",
+    "general.meet.join": "Join",
   },
 };
 
