@@ -86,6 +86,14 @@ export interface Translations {
   "general.label.audioAttached": string;
   "general.label.videoAttached": string;
   "general.label.fileAttached": string;
+  "general.label.userLeft": string;
+  "general.label.userJoined": string;
+  "general.label.welcomeRocketChat": string;
+  "general.label.messageRemoved": string;
+  "general.label.userMuted": string;
+  "general.label.userUnMuted": string;
+  "general.label.subscriptionRoleAdded": string;
+  "general.label.subscriptionRoleRemoved": string;
 }
 
 interface General {
@@ -184,7 +192,14 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio allegato",
     "general.label.videoAttached": "Video allegato",
     "general.label.fileAttached": "File allegato",
-
+    "general.label.userLeft": "Qualcuno ha lasciato la chat",
+    "general.label.userJoined": "Qualcuno si è unito alla chat",
+    "general.label.welcomeRocketChat": "Benvenuto!",
+    "general.label.messageRemoved": "Il messaggio è stato rimosso",
+    "general.label.userMuted": "L'utente è mutato",
+    "general.label.userUnMuted": "L'utente non è mutato",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -274,6 +289,14 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -363,6 +386,14 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -452,6 +483,14 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -541,6 +580,14 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
 };
 
