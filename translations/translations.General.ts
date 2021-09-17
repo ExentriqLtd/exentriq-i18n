@@ -78,6 +78,14 @@ export interface Translations {
   "general.meet.answer": string;
   "general.meet.decline": string;
   "general.meet.join": string;
+  "general.label.addedUser": string;
+  "general.label.removedUser": string;
+  "general.label.groupRenamed": string;
+  "general.label.taskAttached": string;
+  "general.label.imageAttached": string;
+  "general.label.audioAttached": string;
+  "general.label.videoAttached": string;
+  "general.label.fileAttached": string;
 }
 
 interface General {
@@ -168,6 +176,15 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Risposta",
     "general.meet.decline": "Rifiuta",
     "general.meet.join": "Accedi",
+    "general.label.addedUser": "Qualcuno è stato aggiunto al gruppo",
+    "general.label.removedUser": "Qualcuno è stato rimosso dal gruppo",
+    "general.label.groupRenamed": "Qualcuno ha rinominato il gruppo",
+    "general.label.taskAttached": "Task allegato",
+    "general.label.imageAttached": "Immagine allegata",
+    "general.label.audioAttached": "Audio allegato",
+    "general.label.videoAttached": "Video allegato",
+    "general.label.fileAttached": "File allegato",
+
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -249,6 +266,14 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -330,6 +355,14 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -411,6 +444,14 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -492,6 +533,14 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
   },
 };
 
