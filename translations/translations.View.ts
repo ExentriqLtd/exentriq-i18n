@@ -27,7 +27,7 @@ export const translationsView: View = {
     "view.title.settings": "Impostazioni",
     "view.title.user-status": "Status",
     "view.title.new-room": "Nuova chat",
-    "view.title.new-call": "Nuova Chiamata";
+    "view.title.new-call": "Nuova Chiamata",
     "view.title.new-group": "Crea gruppo",
     "view.title.new-group-call": "Crea Chiamata di gruppo",
     "view.user.is-typing": "sta scrivendo...",
@@ -38,7 +38,7 @@ export const translationsView: View = {
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
-    "view.title.new-call": "New call";
+    "view.title.new-call": "New call",
     "view.title.new-group-call": "Create call group",
     "view.user.is-typing": "is typing...",
   },
