@@ -45,6 +45,7 @@ export interface Translations {
   "general.action.copyMessage": string;
   "general.action.replyMessage": string;
   "general.action.forwardMessage": string;
+  "general.action.sendLocationWarning":string;
   "general.label.forwardedMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
@@ -64,8 +65,8 @@ export interface Translations {
   "general.label.searchUser": string;
   "general.label.inviteUsers": string;
   "general.label.invited": string;
-  "general.label.searchLanguage": string,
-  "general.label.languageSelect": string,
+  "general.label.searchLanguage": string;
+  "general.label.languageSelect": string;
   "general.meet.inProgress": string;
   "general.meet.another-call-is-in-progress": string;
   "general.meet.call": string;
@@ -77,6 +78,22 @@ export interface Translations {
   "general.meet.answer": string;
   "general.meet.decline": string;
   "general.meet.join": string;
+  "general.label.addedUser": string;
+  "general.label.removedUser": string;
+  "general.label.groupRenamed": string;
+  "general.label.taskAttached": string;
+  "general.label.imageAttached": string;
+  "general.label.audioAttached": string;
+  "general.label.videoAttached": string;
+  "general.label.fileAttached": string;
+  "general.label.userLeft": string;
+  "general.label.userJoined": string;
+  "general.label.welcomeRocketChat": string;
+  "general.label.messageRemoved": string;
+  "general.label.userMuted": string;
+  "general.label.userUnMuted": string;
+  "general.label.subscriptionRoleAdded": string;
+  "general.label.subscriptionRoleRemoved": string;
 }
 
 interface General {
@@ -134,6 +151,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copia Messaggio",
     "general.action.replyMessage": "Rispondi",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Cerca Messaggi",
     "general.label.chatList": "Lista chat",
@@ -166,6 +184,22 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Risposta",
     "general.meet.decline": "Rifiuta",
     "general.meet.join": "Accedi",
+    "general.label.addedUser": "Qualcuno è stato aggiunto al gruppo",
+    "general.label.removedUser": "Qualcuno è stato rimosso dal gruppo",
+    "general.label.groupRenamed": "Qualcuno ha rinominato il gruppo",
+    "general.label.taskAttached": "Task allegato",
+    "general.label.imageAttached": "Immagine allegata",
+    "general.label.audioAttached": "Audio allegato",
+    "general.label.videoAttached": "Video allegato",
+    "general.label.fileAttached": "File allegato",
+    "general.label.userLeft": "Qualcuno ha lasciato la chat",
+    "general.label.userJoined": "Qualcuno si è unito alla chat",
+    "general.label.welcomeRocketChat": "Benvenuto!",
+    "general.label.messageRemoved": "Il messaggio è stato rimosso",
+    "general.label.userMuted": "L'utente è mutato",
+    "general.label.userUnMuted": "L'utente non è mutato",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -214,6 +248,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Reply",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"To send the location, enter the full address or select the one suggested.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat List",
@@ -246,6 +281,22 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -294,6 +345,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Réponse",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Liste de chat",
@@ -326,6 +378,22 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -374,6 +442,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Antworten",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat-Liste",
@@ -406,6 +475,22 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -454,6 +539,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Respuesta",
     "general.action.forwardMessage": "Forward",
+    "general.action.sendLocationWarning":"Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Muscar mensajes",
     "general.label.chatList": "Lista de chat",
@@ -486,6 +572,22 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
   },
 };
 

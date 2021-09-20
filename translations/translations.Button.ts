@@ -7,7 +7,9 @@ interface Translations {
   "button.logout": string;
   "button.delete.room": string;
   "button.fab.user": string;
+  "button.fab.call": string;
   "button.fab.group": string;
+  "button.fab.groupCall": string;
 }
 
 interface Button {
@@ -26,7 +28,9 @@ export const translationsButton: Button = {
     "button.logout": "Esci",
     "button.delete.room": "Nascondi",
     "button.fab.user": "Chat",
+    "button.fab.call": "Chiamata",
     "button.fab.group": "Chat di Gruppo",
+    "button.fab.groupCall": "Chiamata di Gruppo",
   },
   en: {
     "button.loading": "Loading...",
@@ -35,7 +39,9 @@ export const translationsButton: Button = {
     "button.logout": "Logout",
     "button.delete.room": "Hide",
     "button.fab.user": "Direct chat",
+    "button.fab.call": "Direct call",
     "button.fab.group": "Group chat",
+    "button.fab.groupCall": "Group call",
   },
   fr: {
     "button.loading": "Loading...",
@@ -44,7 +50,10 @@ export const translationsButton: Button = {
     "button.logout": "Logout",
     "button.delete.room": "Hide",
     "button.fab.user": "Direct chat",
+    "button.fab.call": "Direct call",
     "button.fab.group": "Group chat",
+    "button.fab.groupCall": "Group call",
+
   },
   de: {
     "button.loading": "Loading...",
@@ -53,7 +62,10 @@ export const translationsButton: Button = {
     "button.logout": "Logout",
     "button.delete.room": "Hide",
     "button.fab.user": "Direct chat",
+    "button.fab.call": "Direct call",
     "button.fab.group": "Group chat",
+    "button.fab.groupCall": "Group call",
+
   },
   es: {
     "button.loading": "Loading...",
@@ -62,7 +74,10 @@ export const translationsButton: Button = {
     "button.logout": "Logout",
     "button.delete.room": "Hide",
     "button.fab.user": "Direct chat",
+    "button.fab.call": "Direct call",
     "button.fab.group": "Group chat",
+    "button.fab.groupCall": "Group call",
+
   },
 };
 
