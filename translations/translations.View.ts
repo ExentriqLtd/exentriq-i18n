@@ -7,6 +7,7 @@ interface Translations {
   "view.title.user-status": string;
   "view.title.new-room": string;
   "view.title.new-group": string;
+  "view.title.new-group-call": string;
   "view.user.is-typing": string;
 }
 
@@ -26,6 +27,7 @@ export const translationsView: View = {
     "view.title.user-status": "Status",
     "view.title.new-room": "Nuova chat",
     "view.title.new-group": "Crea gruppo",
+    "view.title.new-group-call": "Crea gruppo chiamata",
     "view.user.is-typing": "sta scrivendo...",
   },
   en: {
@@ -34,7 +36,7 @@ export const translationsView: View = {
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
-    "view.title.new-group": "Create group",
+    "view.title.new-group-call": "Create call group",
     "view.user.is-typing": "is typing...",
   },
   fr: {
@@ -44,6 +46,7 @@ export const translationsView: View = {
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
     "view.title.new-group": "Create group",
+    "view.title.new-group-call": "Créer un groupe d'appel",
     "view.user.is-typing": "is typing...",
   },
   de: {
@@ -53,6 +56,7 @@ export const translationsView: View = {
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
     "view.title.new-group": "Create group",
+    "view.title.new-group-call": "Anrufgruppe erstellen",
     "view.user.is-typing": "is typing...",
   },
   es: {
@@ -62,6 +66,7 @@ export const translationsView: View = {
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
     "view.title.new-group": "Create group",
+    "view.title.new-group-call": "Crear grupo de llamadas",
     "view.user.is-typing": "is typing...",
   },
 };
