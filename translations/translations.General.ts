@@ -94,6 +94,7 @@ export interface Translations {
   "general.label.userUnMuted": string;
   "general.label.subscriptionRoleAdded": string;
   "general.label.subscriptionRoleRemoved": string;
+  "general.label.mention": string;
 }
 
 interface General {
@@ -200,6 +201,7 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "L'utente non è mutato",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "utente",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -297,6 +299,7 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "user",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -394,6 +397,7 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "utilisateur",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -491,6 +495,7 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "benutzer",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -588,6 +593,7 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "usuario",
   },
 };
 
