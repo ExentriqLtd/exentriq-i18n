@@ -95,6 +95,8 @@ export interface Translations {
   "general.label.subscriptionRoleAdded": string;
   "general.label.subscriptionRoleRemoved": string;
   "general.label.mention": string;
+  "general.label.requestPermissionTitle": string;
+  "general.label.requestPermissionMessage": string;
 }
 
 interface General {
@@ -202,6 +204,8 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "utente",
+    "general.label.requestPermissionTitle": "Accesso alla posizione richiesto",
+    "general.label.requestPermissionMessage": "Questa app deve accedere alla tua posizione"
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -300,6 +304,8 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "user",
+    "general.label.requestPermissionTitle": "Location access required",
+    "general.label.requestPermissionMessage": "This app needs to access your location"
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -398,6 +404,8 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "utilisateur",
+    "general.label.requestPermissionTitle": "Accès à l'emplacement requis",
+    "general.label.requestPermissionMessage": "Cette application doit accéder à votre position"
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -496,6 +504,8 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "benutzer",
+    "general.label.requestPermissionTitle": "Standortzugriff erforderlich",
+    "general.label.requestPermissionMessage": "Diese App muss auf Ihren Standort zugreifen"
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -594,6 +604,8 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "usuario",
+    "general.label.requestPermissionTitle": "Se requiere acceso a la ubicación",
+    "general.label.requestPermissionMessage": "Esta aplicación debe acceder a tu ubicación"
   },
 };
 
