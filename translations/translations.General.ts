@@ -78,6 +78,25 @@ export interface Translations {
   "general.meet.answer": string;
   "general.meet.decline": string;
   "general.meet.join": string;
+  "general.label.addedUser": string;
+  "general.label.removedUser": string;
+  "general.label.groupRenamed": string;
+  "general.label.taskAttached": string;
+  "general.label.imageAttached": string;
+  "general.label.audioAttached": string;
+  "general.label.videoAttached": string;
+  "general.label.fileAttached": string;
+  "general.label.userLeft": string;
+  "general.label.userJoined": string;
+  "general.label.welcomeRocketChat": string;
+  "general.label.messageRemoved": string;
+  "general.label.userMuted": string;
+  "general.label.userUnMuted": string;
+  "general.label.subscriptionRoleAdded": string;
+  "general.label.subscriptionRoleRemoved": string;
+  "general.label.mention": string;
+  "general.label.requestPermissionTitle": string;
+  "general.label.requestPermissionMessage": string;
 }
 
 interface General {
@@ -168,6 +187,25 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Risposta",
     "general.meet.decline": "Rifiuta",
     "general.meet.join": "Accedi",
+    "general.label.addedUser": "Qualcuno è stato aggiunto al gruppo",
+    "general.label.removedUser": "Qualcuno è stato rimosso dal gruppo",
+    "general.label.groupRenamed": "Qualcuno ha rinominato il gruppo",
+    "general.label.taskAttached": "Task allegato",
+    "general.label.imageAttached": "Immagine allegata",
+    "general.label.audioAttached": "Audio allegato",
+    "general.label.videoAttached": "Video allegato",
+    "general.label.fileAttached": "File allegato",
+    "general.label.userLeft": "Qualcuno ha lasciato la chat",
+    "general.label.userJoined": "Qualcuno si è unito alla chat",
+    "general.label.welcomeRocketChat": "Benvenuto!",
+    "general.label.messageRemoved": "Il messaggio è stato rimosso",
+    "general.label.userMuted": "L'utente è mutato",
+    "general.label.userUnMuted": "L'utente non è mutato",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "utente",
+    "general.label.requestPermissionTitle": "Accesso alla posizione richiesto",
+    "general.label.requestPermissionMessage": "Questa app deve accedere alla tua posizione"
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -249,6 +287,25 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "user",
+    "general.label.requestPermissionTitle": "Location access required",
+    "general.label.requestPermissionMessage": "This app needs to access your location"
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -330,6 +387,25 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "utilisateur",
+    "general.label.requestPermissionTitle": "Accès à l'emplacement requis",
+    "general.label.requestPermissionMessage": "Cette application doit accéder à votre position"
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -411,6 +487,25 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "benutzer",
+    "general.label.requestPermissionTitle": "Standortzugriff erforderlich",
+    "general.label.requestPermissionMessage": "Diese App muss auf Ihren Standort zugreifen"
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -492,6 +587,25 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.label.addedUser": "Someone has been added to the group",
+    "general.label.removedUser": "Someone has been removed from the group",
+    "general.label.groupRenamed": "Someone has renamed the group",
+    "general.label.taskAttached": "Task attached",
+    "general.label.imageAttached": "Image attached",
+    "general.label.audioAttached": "Audio attached",
+    "general.label.videoAttached": "Video attached",
+    "general.label.fileAttached": "File attached",
+    "general.label.userLeft": "Someone left the chat",
+    "general.label.userJoined": "Someone joined the chat",
+    "general.label.welcomeRocketChat": "Welcome!",
+    "general.label.messageRemoved": "Message has been removed",
+    "general.label.userMuted": "User is muted",
+    "general.label.userUnMuted": "User is unmuted",
+    "general.label.subscriptionRoleAdded": "Subcription Role Added",
+    "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "usuario",
+    "general.label.requestPermissionTitle": "Se requiere acceso a la ubicación",
+    "general.label.requestPermissionMessage": "Esta aplicación debe acceder a tu ubicación"
   },
 };
 
