@@ -86,6 +86,8 @@ export interface Translations {
   "general.label.audioAttached": string;
   "general.label.videoAttached": string;
   "general.label.fileAttached": string;
+  "general.label.messageForwarded": string;
+  "general.label.messageReply": string;
   "general.label.userLeft": string;
   "general.label.userJoined": string;
   "general.label.welcomeRocketChat": string;
@@ -195,6 +197,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio allegato",
     "general.label.videoAttached": "Video allegato",
     "general.label.fileAttached": "File allegato",
+    "general.label.messageForwarded": "Messaggio inoltrato",
+    "general.label.messageReply": "Messaggio di risposta",
     "general.label.userLeft": "Qualcuno ha lasciato la chat",
     "general.label.userJoined": "Qualcuno si è unito alla chat",
     "general.label.welcomeRocketChat": "Benvenuto!",
@@ -295,6 +299,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
@@ -395,6 +401,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
@@ -495,6 +503,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
@@ -595,6 +605,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
