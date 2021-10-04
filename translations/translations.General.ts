@@ -45,7 +45,10 @@ export interface Translations {
   "general.action.copyMessage": string;
   "general.action.replyMessage": string;
   "general.action.forwardMessage": string;
-  "general.action.sendLocationWarning":string;
+  "general.action.sendLocationWarning": string;
+  "general.action.openMap": string;
+  "general.action.openGMap": string;
+  "general.action.openWaze": string;
   "general.label.forwardedMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
@@ -156,7 +159,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copia Messaggio",
     "general.action.replyMessage": "Rispondi",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
+    "general.action.sendLocationWarning": "Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
+    "general.action.openMap": "Apri con mappe",
+    "general.action.openGMap": "Apri con Google Maps",
+    "general.action.openWaze": "Apri con Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Cerca Messaggi",
     "general.label.chatList": "Lista chat",
@@ -258,7 +264,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Reply",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"To send the location, enter the full address or select the one suggested.",
+    "general.action.sendLocationWarning": "To send the location, enter the full address or select the one suggested.",
+    "general.action.openMap": "Open with maps",
+    "general.action.openGMap": "Open with Google Maps",
+    "general.action.openWaze": "Open with Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat List",
@@ -360,7 +369,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Réponse",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
+    "general.action.sendLocationWarning": "Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
+    "general.action.openMap": "Ouvrir avec des cartes",
+    "general.action.openGMap": "Ouvrir avec Google Maps",
+    "general.action.openWaze": "Ouvrir avec Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Liste de chat",
@@ -462,7 +474,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Antworten",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
+    "general.action.sendLocationWarning": "Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
+    "general.action.openMap": "Mit Karten öffnen",
+    "general.action.openGMap": "Mit Google Maps öffnen",
+    "general.action.openWaze": "Öffnen mit waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat-Liste",
@@ -564,7 +579,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Respuesta",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
+    "general.action.sendLocationWarning": "Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
+    "general.action.openMap": "Abrir con mapas",
+    "general.action.openGMap": "Abrir con Google Maps",
+    "general.action.openWaze": "Abrir con Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Muscar mensajes",
     "general.label.chatList": "Lista de chat",
