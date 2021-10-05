@@ -38,6 +38,7 @@ export interface Translations {
   "general.action.choose": string;
   "general.action.location": string;
   "general.action.camera": string;
+  "general.action.call": string;
   "general.action.library": string;
   "general.action.browse": string;
   "general.action.cancel": string;
@@ -157,6 +158,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Scegliere un'opzione",
     "general.action.location": "Posizione",
     "general.action.camera": "Dalla Camera",
+    "general.action.call": "Chiama",
     "general.action.library": "Dalla Galleria",
     "general.action.browse": "Browse",
     "general.action.cancel": "Annulla",
@@ -267,6 +269,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Choose an option",
     "general.action.location": "Location",
     "general.action.camera": "From Camera",
+    "general.action.call": "Call",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
     "general.action.cancel": "Cancel",
@@ -378,6 +381,7 @@ export const translationsGeneral: General = {
     "general.action.location": "Position",
     "general.action.camera": "Depuis la caméra",
     "general.action.library": "Depuis la galérie",
+    "general.action.call": "Appel",
     "general.action.browse": "Browse",
     "general.action.cancel": "Annuler",
     "general.action.delete": "Effacer",
@@ -492,6 +496,7 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Abbrechen",
     "general.action.delete": "Löschen",
     "general.action.copyMessage": "Nachricht kopieren",
+    "general.action.call": "Wer liebt",
     "general.action.replyMessage": "Antworten",
     "general.action.forwardMessage": "Nach vorne",
     "general.action.sendLocationWarning": "Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
@@ -602,6 +607,7 @@ export const translationsGeneral: General = {
     "general.action.cancel": "Cancelar",
     "general.action.delete": "Borrar",
     "general.action.copyMessage": "Copiar mensaje",
+    "general.action.call": "Quien Ama",
     "general.action.replyMessage": "Respuesta",
     "general.action.forwardMessage": "Hacia adelante",
     "general.action.sendLocationWarning": "Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
