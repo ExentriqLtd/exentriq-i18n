@@ -102,6 +102,11 @@ export interface Translations {
   "general.label.mention": string;
   "general.label.requestPermissionTitle": string;
   "general.label.requestPermissionMessage": string;
+  "general.label.geolocationShared": string;
+  "general.label.noPermissionGallery": string;
+  "general.label.noPermissionCamera": string;
+  "general.label.error": string;
+  "general.label.changeSettings": string;
 }
 
 interface General {
@@ -215,7 +220,12 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "utente",
     "general.label.requestPermissionTitle": "Accesso alla posizione richiesto",
-    "general.label.requestPermissionMessage": "Questa app deve accedere alla tua posizione"
+    "general.label.requestPermissionMessage": "Questa app deve accedere alla tua posizione",
+    "general.label.geolocationShared": "Qualcuno ha condiviso con te una posizione",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -320,7 +330,12 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "user",
     "general.label.requestPermissionTitle": "Location access required",
-    "general.label.requestPermissionMessage": "This app needs to access your location"
+    "general.label.requestPermissionMessage": "This app needs to access your location",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -425,7 +440,12 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "utilisateur",
     "general.label.requestPermissionTitle": "Accès à l'emplacement requis",
-    "general.label.requestPermissionMessage": "Cette application doit accéder à votre position"
+    "general.label.requestPermissionMessage": "Cette application doit accéder à votre position",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -530,7 +550,12 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "benutzer",
     "general.label.requestPermissionTitle": "Standortzugriff erforderlich",
-    "general.label.requestPermissionMessage": "Diese App muss auf Ihren Standort zugreifen"
+    "general.label.requestPermissionMessage": "Diese App muss auf Ihren Standort zugreifen",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -635,7 +660,12 @@ export const translationsGeneral: General = {
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
     "general.label.mention": "usuario",
     "general.label.requestPermissionTitle": "Se requiere acceso a la ubicación",
-    "general.label.requestPermissionMessage": "Esta aplicación debe acceder a tu ubicación"
+    "general.label.requestPermissionMessage": "Esta aplicación debe acceder a tu ubicación",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
 };
 
