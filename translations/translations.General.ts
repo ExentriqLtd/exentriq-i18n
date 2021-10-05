@@ -38,6 +38,7 @@ export interface Translations {
   "general.action.choose": string;
   "general.action.location": string;
   "general.action.camera": string;
+  "general.action.call": string;
   "general.action.library": string;
   "general.action.browse": string;
   "general.action.cancel": string;
@@ -144,6 +145,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Scegliere un'opzione",
     "general.action.location": "Posizione",
     "general.action.camera": "Dalla Camera",
+    "general.action.call": "Chiama",
     "general.action.library": "Dalla Galleria",
     "general.action.browse": "Browse",
     "general.action.cancel": "Annulla",
@@ -241,6 +243,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Choose an option",
     "general.action.location": "Location",
     "general.action.camera": "From Camera",
+    "general.action.call": "Call",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
     "general.action.cancel": "Cancel",
@@ -338,6 +341,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Choose an option",
     "general.action.location": "Position",
     "general.action.camera": "From Camera",
+    "general.action.call": "Appel",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
     "general.action.cancel": "Cancel",
@@ -435,6 +439,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Choose an option",
     "general.action.location": "Position",
     "general.action.camera": "From Camera",
+    "general.action.call": "Wer liebt",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
     "general.action.cancel": "Cancel",
@@ -532,6 +537,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Choose an option",
     "general.action.location": "Posición",
     "general.action.camera": "From Camera",
+    "general.action.call": "Quien Ama",
     "general.action.library": "From Library",
     "general.action.browse": "Browse",
     "general.action.cancel": "Cancel",
