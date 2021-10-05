@@ -27,18 +27,18 @@ export const translationsTabs: Tabs = {
   },
   fr: {
     "tabs.label.chat": "Chat",
-    "tabs.label.calls": "Calls",
-    "tabs.label.settings": "Settings",
+    "tabs.label.calls": "Appels",
+    "tabs.label.settings": "Paramètres",
   },
   de: {
-    "tabs.label.chat": "Chat",
-    "tabs.label.calls": "Calls",
-    "tabs.label.settings": "Settings",
+    "tabs.label.chat": "Plaudern",
+    "tabs.label.calls": "Anrufe",
+    "tabs.label.settings": "Einstellungen",
   },
   es: {
     "tabs.label.chat": "Chat",
-    "tabs.label.calls": "Calls",
-    "tabs.label.settings": "Settings",
+    "tabs.label.calls": "Llamadas",
+    "tabs.label.settings": "Ajustes",
   },
 };
 

@@ -29,22 +29,22 @@ export const translationsSidebar: Sidebar = {
     "sidebar.button.settings": "Settings",
   },
   fr: {
-    "sidebar.label.status": "Status",
-    "sidebar.label.manage": "Manage",
-    "sidebar.button.my-page": "My page",
-    "sidebar.button.settings": "Settings",
+    "sidebar.label.status": "Statut",
+    "sidebar.label.manage": "Gérer",
+    "sidebar.button.my-page": "Ma page",
+    "sidebar.button.settings": "Paramètres",
   },
   de: {
     "sidebar.label.status": "Status",
-    "sidebar.label.manage": "Manage",
-    "sidebar.button.my-page": "My page",
-    "sidebar.button.settings": "Settings",
+    "sidebar.label.manage": "Verwalten",
+    "sidebar.button.my-page": "Meine Seite",
+    "sidebar.button.settings": "Einstellungen",
   },
   es: {
-    "sidebar.label.status": "Status",
-    "sidebar.label.manage": "Manage",
-    "sidebar.button.my-page": "My page",
-    "sidebar.button.settings": "Settings",
+    "sidebar.label.status": "Estado",
+    "sidebar.label.manage": "Administrar",
+    "sidebar.button.my-page": "Mi página",
+    "sidebar.button.settings": "Ajustes",
   },
 };
 
