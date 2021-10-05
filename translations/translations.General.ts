@@ -46,7 +46,10 @@ export interface Translations {
   "general.action.copyMessage": string;
   "general.action.replyMessage": string;
   "general.action.forwardMessage": string;
-  "general.action.sendLocationWarning":string;
+  "general.action.sendLocationWarning": string;
+  "general.action.openMap": string;
+  "general.action.openGMap": string;
+  "general.action.openWaze": string;
   "general.label.forwardedMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
@@ -87,6 +90,8 @@ export interface Translations {
   "general.label.audioAttached": string;
   "general.label.videoAttached": string;
   "general.label.fileAttached": string;
+  "general.label.messageForwarded": string;
+  "general.label.messageReply": string;
   "general.label.userLeft": string;
   "general.label.userJoined": string;
   "general.label.welcomeRocketChat": string;
@@ -95,6 +100,14 @@ export interface Translations {
   "general.label.userUnMuted": string;
   "general.label.subscriptionRoleAdded": string;
   "general.label.subscriptionRoleRemoved": string;
+  "general.label.mention": string;
+  "general.label.requestPermissionTitle": string;
+  "general.label.requestPermissionMessage": string;
+  "general.label.geolocationShared": string;
+  "general.label.noPermissionGallery": string;
+  "general.label.noPermissionCamera": string;
+  "general.label.error": string;
+  "general.label.changeSettings": string;
 }
 
 interface General {
@@ -153,7 +166,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copia Messaggio",
     "general.action.replyMessage": "Rispondi",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
+    "general.action.sendLocationWarning": "Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
+    "general.action.openMap": "Apri con mappe",
+    "general.action.openGMap": "Apri con Google Maps",
+    "general.action.openWaze": "Apri con Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Cerca Messaggi",
     "general.label.chatList": "Lista chat",
@@ -194,6 +210,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio allegato",
     "general.label.videoAttached": "Video allegato",
     "general.label.fileAttached": "File allegato",
+    "general.label.messageForwarded": "Messaggio inoltrato",
+    "general.label.messageReply": "Messaggio di risposta",
     "general.label.userLeft": "Qualcuno ha lasciato la chat",
     "general.label.userJoined": "Qualcuno si è unito alla chat",
     "general.label.welcomeRocketChat": "Benvenuto!",
@@ -202,6 +220,14 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "L'utente non è mutato",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "utente",
+    "general.label.requestPermissionTitle": "Accesso alla posizione richiesto",
+    "general.label.requestPermissionMessage": "Questa app deve accedere alla tua posizione",
+    "general.label.geolocationShared": "Qualcuno ha condiviso con te una posizione",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -251,7 +277,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Reply",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"To send the location, enter the full address or select the one suggested.",
+    "general.action.sendLocationWarning": "To send the location, enter the full address or select the one suggested.",
+    "general.action.openMap": "Open with maps",
+    "general.action.openGMap": "Open with Google Maps",
+    "general.action.openWaze": "Open with Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat List",
@@ -292,6 +321,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
@@ -300,6 +331,14 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "user",
+    "general.label.requestPermissionTitle": "Location access required",
+    "general.label.requestPermissionMessage": "This app needs to access your location",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   fr: {
     "general.message.connecting": "Connecting to server...",
@@ -349,7 +388,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Réponse",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
+    "general.action.sendLocationWarning": "Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
+    "general.action.openMap": "Ouvrir avec des cartes",
+    "general.action.openGMap": "Ouvrir avec Google Maps",
+    "general.action.openWaze": "Ouvrir avec Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Liste de chat",
@@ -390,6 +432,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
@@ -398,6 +442,14 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "utilisateur",
+    "general.label.requestPermissionTitle": "Accès à l'emplacement requis",
+    "general.label.requestPermissionMessage": "Cette application doit accéder à votre position",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   de: {
     "general.message.connecting": "Connecting to server...",
@@ -447,7 +499,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Antworten",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
+    "general.action.sendLocationWarning": "Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
+    "general.action.openMap": "Mit Karten öffnen",
+    "general.action.openGMap": "Mit Google Maps öffnen",
+    "general.action.openWaze": "Öffnen mit waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat-Liste",
@@ -488,6 +543,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
@@ -496,6 +553,14 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "benutzer",
+    "general.label.requestPermissionTitle": "Standortzugriff erforderlich",
+    "general.label.requestPermissionMessage": "Diese App muss auf Ihren Standort zugreifen",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
   es: {
     "general.message.connecting": "Connecting to server...",
@@ -545,7 +610,10 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Respuesta",
     "general.action.forwardMessage": "Forward",
-    "general.action.sendLocationWarning":"Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
+    "general.action.sendLocationWarning": "Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
+    "general.action.openMap": "Abrir con mapas",
+    "general.action.openGMap": "Abrir con Google Maps",
+    "general.action.openWaze": "Abrir con Waze",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Muscar mensajes",
     "general.label.chatList": "Lista de chat",
@@ -586,6 +654,8 @@ export const translationsGeneral: General = {
     "general.label.audioAttached": "Audio attached",
     "general.label.videoAttached": "Video attached",
     "general.label.fileAttached": "File attached",
+    "general.label.messageForwarded": "Message forwarded",
+    "general.label.messageReply": "Reply Message",
     "general.label.userLeft": "Someone left the chat",
     "general.label.userJoined": "Someone joined the chat",
     "general.label.welcomeRocketChat": "Welcome!",
@@ -594,6 +664,14 @@ export const translationsGeneral: General = {
     "general.label.userUnMuted": "User is unmuted",
     "general.label.subscriptionRoleAdded": "Subcription Role Added",
     "general.label.subscriptionRoleRemoved": "Subscription Role Removed",
+    "general.label.mention": "usuario",
+    "general.label.requestPermissionTitle": "Se requiere acceso a la ubicación",
+    "general.label.requestPermissionMessage": "Esta aplicación debe acceder a tu ubicación",
+    "general.label.geolocationShared": "Someone shared a location",
+    "general.label.noPermissionGallery": 'User did not grant library permission',
+    "general.label.noPermissionCamera": 'User did not grant camera permission',
+    "general.label.error": "Error",
+    "general.label.changeSettings": "Change Settings",
   },
 };
 

@@ -3,6 +3,7 @@
 interface Translations {
   "view.title.chat-list": string;
   "view.title.call-list": string;
+  "view.title.googleMap": string;
   "view.title.settings": string;
   "view.title.user-status": string;
   "view.title.new-room": string;
@@ -24,6 +25,7 @@ export const translationsView: View = {
   it: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Chiamate",
+    "view.title.googleMap": "Posizione",
     "view.title.settings": "Impostazioni",
     "view.title.user-status": "Status",
     "view.title.new-room": "Nuova chat",
@@ -35,43 +37,48 @@ export const translationsView: View = {
   en: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Calls",
+    "view.title.googleMap": "Location",
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
     "view.title.new-call": "New call",
+    "view.title.new-group": "Create group",
     "view.title.new-group-call": "Create call group",
     "view.user.is-typing": "is typing...",
   },
   fr: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Calls",
+    "view.title.googleMap": "Emplacement",
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
     "view.title.new-call": "Nouvel appel",
-    "view.title.new-group": "Create group",
+    "view.title.new-group": "Créer un groupe",
     "view.title.new-group-call": "Créer un groupe d'appel",
     "view.user.is-typing": "is typing...",
   },
   de: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Calls",
+    "view.title.googleMap": "Lage",
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
     "view.title.new-room": "New chat",
     "view.title.new-call": "Neuer Anruf",
-    "view.title.new-group": "Create group",
+    "view.title.new-group": "Gruppe erstellen",
     "view.title.new-group-call": "Anrufgruppe erstellen",
     "view.user.is-typing": "is typing...",
   },
   es: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Calls",
+    "view.title.googleMap": "Localización",
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
     "view.title.new-room": "nueva llamada",
     "view.title.new-call": "Nouvel appel",
-    "view.title.new-group": "Create group",
+    "view.title.new-group": "Crea un grupo",
     "view.title.new-group-call": "Crear grupo de llamadas",
     "view.user.is-typing": "is typing...",
   },
