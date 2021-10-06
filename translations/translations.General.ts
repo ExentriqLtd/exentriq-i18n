@@ -108,6 +108,7 @@ export interface Translations {
   "general.label.noPermissionCamera": string;
   "general.label.error": string;
   "general.label.changeSettings": string;
+  "general.label.ShareNotAvaiable": string;
 }
 
 interface General {
@@ -228,6 +229,7 @@ export const translationsGeneral: General = {
     "general.label.noPermissionCamera": "Devi autorizzare l'accesso alla fotocamera",
     "general.label.error": "Errore",
     "general.label.changeSettings": "Cambia Impostazioni",
+    "general.label.ShareNotAvaiable": "Condivisione non disponibile",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -339,6 +341,7 @@ export const translationsGeneral: General = {
     "general.label.noPermissionCamera": "User did not grant camera permission",
     "general.label.error": "Error",
     "general.label.changeSettings": "Change Settings",
+    "general.label.ShareNotAvaiable": "Share not avaiable",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -450,6 +453,7 @@ export const translationsGeneral: General = {
     "general.label.noPermissionCamera": "L'utilisateur n'a pas accordé l'autorisation de la caméra",
     "general.label.error": "Erreur",
     "general.label.changeSettings": "Modifier les paramètres",
+    "general.label.ShareNotAvaiable": "Partager non disponible",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -561,6 +565,7 @@ export const translationsGeneral: General = {
     "general.label.noPermissionCamera": "Der Benutzer hat keine Kameraberechtigung erteilt",
     "general.label.error": "Fehler",
     "general.label.changeSettings": "Einstellungen ändern",
+    "general.label.ShareNotAvaiable": "Teilen nicht verfügbar",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -672,6 +677,7 @@ export const translationsGeneral: General = {
     "general.label.noPermissionCamera": "El usuario no otorgó permiso a la cámara.",
     "general.label.error": "Error",
     "general.label.changeSettings": "Cambiar ajustes",
+    "general.label.ShareNotAvaiable": "Compartir no disponible",
   },
 };
 
