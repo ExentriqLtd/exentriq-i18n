@@ -71,6 +71,8 @@ export interface Translations {
   "general.label.invited": string;
   "general.label.searchLanguage": string;
   "general.label.languageSelect": string;
+  "general.label.permissionLocation": string;
+  "general.label.SubPermissionLocation": string;
   "general.meet.inProgress": string;
   "general.meet.another-call-is-in-progress": string;
   "general.meet.call": string;
@@ -191,6 +193,8 @@ export const translationsGeneral: General = {
     "general.label.inviteUsers": "Invita Utenti",
     "general.label.searchLanguage": "Cerca lingua",
     "general.label.languageSelect": "Seleziona Lingua",
+    "general.label.permissionLocation": "Non ha accesso alla tua posizione.",
+    "general.label.SubPermissionLocation": "Abilita l'accesso, tocca impostazioni>Posizione",
     "general.label.invited": "Invitato",
     "general.meet.inProgress": "Chiamata in corso",
     "general.meet.another-call-is-in-progress": "Un'altra chiamata è in corso",
@@ -303,6 +307,8 @@ export const translationsGeneral: General = {
     "general.label.inviteUsers": "Invite Users",
     "general.label.searchLanguage": "Search Language",
     "general.label.languageSelect": "Select Language",
+    "general.label.permissionLocation": "He has no access to your location.",
+    "general.label.SubPermissionLocation": "Enable access, tap Settings> Location",
     "general.label.invited": "Invited",
     "general.meet.to-this-call": "to this call.",
     "general.meet.inProgress": "Call in progress",
@@ -416,6 +422,8 @@ export const translationsGeneral: General = {
     "general.label.invited": "Invité",
     "general.label.searchLanguage": "Rechercher Langue",
     "general.label.languageSelect": "Selectioner Langue",
+    "general.label.permissionLocation": "Il n'a pas accès à votre position.",
+    "general.label.SubPermissionLocation": "Activer l'accès, appuyez sur Paramètres> Emplacement",
     "general.meet.invite": "Inviter",
     "general.meet.to-this-call": "à cet appel.",
     "general.meet.inProgress": "Appel en cours",
@@ -528,6 +536,8 @@ export const translationsGeneral: General = {
     "general.label.invited": "Eingeladen",
     "general.label.searchLanguage": "Sprache suchen",
     "general.label.languageSelect": "Sprache auswählen",
+    "general.label.permissionLocation": "Es hat keinen Zugriff auf Ihren Standort.",
+    "general.label.SubPermissionLocation": "Aktivieren Sie den Zugriff, tippen Sie auf Einstellungen> Standort",
     "general.meet.inProgress": "Anruf in Arbeit",
     "general.meet.another-call-is-in-progress": "Ein weiterer Anruf läuft",
     "general.meet.call": "Treffen Anruf",
@@ -640,6 +650,8 @@ export const translationsGeneral: General = {
     "general.label.invited": "Invitado",
     "general.label.searchLanguage": "Idioma de búsqueda",
     "general.label.languageSelect": "Seleccione el idioma",
+    "general.label.permissionLocation": "No tiene acceso a tu ubicación.",
+    "general.label.SubPermissionLocation": "Active el acceso, toque Configuración> Ubicación",
     "general.meet.inProgress": "Llamada en progreso",
     "general.meet.another-call-is-in-progress": "Hay otra llamada en curso",
     "general.meet.call": "Meet Llamada",
