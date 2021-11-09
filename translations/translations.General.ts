@@ -111,6 +111,7 @@ export interface Translations {
   "general.label.error": string;
   "general.label.changeSettings": string;
   "general.label.ShareNotAvaiable": string;
+  "general.action.resend": string;
 }
 
 interface General {
@@ -234,6 +235,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Errore",
     "general.label.changeSettings": "Cambia Impostazioni",
     "general.label.ShareNotAvaiable": "Condivisione non disponibile",
+    "general.action.resend": "Invia di nuovo",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -348,6 +350,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Error",
     "general.label.changeSettings": "Change Settings",
     "general.label.ShareNotAvaiable": "Share not avaiable",
+    "general.action.resend": "Resend",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -462,6 +465,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Erreur",
     "general.label.changeSettings": "Modifier les paramètres",
     "general.label.ShareNotAvaiable": "Partager non disponible",
+    "general.action.resend": "Renvoyer",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -576,6 +580,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Fehler",
     "general.label.changeSettings": "Einstellungen ändern",
     "general.label.ShareNotAvaiable": "Teilen nicht verfügbar",
+    "general.action.resend": "Nochmal senden",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -690,6 +695,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Error",
     "general.label.changeSettings": "Cambiar ajustes",
     "general.label.ShareNotAvaiable": "Compartir no disponible",
+    "general.action.resend": "Enviar de nuevo",
   },
 };
 
