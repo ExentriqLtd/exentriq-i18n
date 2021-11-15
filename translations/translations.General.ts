@@ -84,6 +84,8 @@ export interface Translations {
   "general.meet.answer": string;
   "general.meet.decline": string;
   "general.meet.join": string;
+  "general.meet.callFrom": string;
+  "general.meet.callTo": string;
   "general.label.addedUser": string;
   "general.label.removedUser": string;
   "general.label.groupRenamed": string;
@@ -208,6 +210,8 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Risposta",
     "general.meet.decline": "Rifiuta",
     "general.meet.join": "Accedi",
+    "general.meet.callFrom": "Chiamata da ",
+    "general.meet.callTo": "Chiamata per ",
     "general.label.addedUser": "è stato aggiunto al gruppo",
     "general.label.removedUser": "è stato rimosso dal gruppo",
     "general.label.groupRenamed": "ha rinominato il gruppo",
@@ -323,6 +327,8 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Answer",
     "general.meet.decline": "Decline",
     "general.meet.join": "Join",
+    "general.meet.callFrom": "Call from ",
+    "general.meet.callTo": "Call to ",
     "general.label.addedUser": "has been added to the group",
     "general.label.removedUser": "has been removed from the group",
     "general.label.groupRenamed": "has renamed the group",
@@ -438,6 +444,8 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Réponse",
     "general.meet.decline": "Déclin",
     "general.meet.join": "Rejoindre",
+    "general.meet.callFrom": "Appel de ",
+    "general.meet.callTo": "Appel pour ",
     "general.label.addedUser": "a été ajouté au groupe",
     "general.label.removedUser": "a été retiré du groupe",
     "general.label.groupRenamed": "a renommé le groupe",
@@ -553,6 +561,8 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Antworten",
     "general.meet.decline": "Ablehnen",
     "general.meet.join": "Verbinden",
+    "general.meet.callFrom": "Anruf von ",
+    "general.meet.callTo": "Ruf an ",
     "general.label.addedUser": "wurde der Gruppe hinzugefügt",
     "general.label.removedUser": "wurde aus der Gruppe entfernt",
     "general.label.groupRenamed": "hat die Gruppe umbenannt",
@@ -668,6 +678,8 @@ export const translationsGeneral: General = {
     "general.meet.answer": "Respuesta",
     "general.meet.decline": "Disminución",
     "general.meet.join": "Entrar",
+    "general.meet.callFrom": "Llamada de ",
+    "general.meet.callTo": "Llamar a ",
     "general.label.addedUser": "ha sido agregado al grupo",
     "general.label.removedUser": "ha sido eliminado del grupo.",
     "general.label.groupRenamed": "ha cambiado el nombre del grupo",
