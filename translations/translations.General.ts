@@ -114,6 +114,7 @@ export interface Translations {
   "general.label.changeSettings": string;
   "general.label.ShareNotAvaiable": string;
   "general.action.resend": string;
+  "general.action.slideToCancel": string;
 }
 
 interface General {
@@ -240,6 +241,7 @@ export const translationsGeneral: General = {
     "general.label.changeSettings": "Cambia Impostazioni",
     "general.label.ShareNotAvaiable": "Condivisione non disponibile",
     "general.action.resend": "Invia di nuovo",
+    "general.action.slideToCancel": "Scorri per annullare",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -357,6 +359,7 @@ export const translationsGeneral: General = {
     "general.label.changeSettings": "Change Settings",
     "general.label.ShareNotAvaiable": "Share not avaiable",
     "general.action.resend": "Resend",
+    "general.action.slideToCancel": "Slide to cancel",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -474,6 +477,7 @@ export const translationsGeneral: General = {
     "general.label.changeSettings": "Modifier les paramètres",
     "general.label.ShareNotAvaiable": "Partager non disponible",
     "general.action.resend": "Renvoyer",
+    "general.action.slideToCancel": "Faites glisser pour annuler",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -591,6 +595,7 @@ export const translationsGeneral: General = {
     "general.label.changeSettings": "Einstellungen ändern",
     "general.label.ShareNotAvaiable": "Teilen nicht verfügbar",
     "general.action.resend": "Nochmal senden",
+    "general.action.slideToCancel": "Zum Abbrechen schieben",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -708,6 +713,7 @@ export const translationsGeneral: General = {
     "general.label.changeSettings": "Cambiar ajustes",
     "general.label.ShareNotAvaiable": "Compartir no disponible",
     "general.action.resend": "Enviar de nuevo",
+    "general.action.slideToCancel": "Deslizar para cancelar",
   },
 };
 
