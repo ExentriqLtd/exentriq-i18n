@@ -77,6 +77,7 @@ export interface Translations {
   "general.meet.another-call-is-in-progress": string;
   "general.meet.call": string;
   "general.meet.invite": string;
+  "general.label.busy": string;
   "general.meet.to-this-call": string;
   "general.meet.is-calling": string;
   "general.meet.would-you-like-to-hangup": string;
@@ -200,6 +201,7 @@ export const translationsGeneral: General = {
     "general.label.permissionLocation": "Non ha accesso alla tua posizione.",
     "general.label.SubPermissionLocation": "Abilita l'accesso, tocca impostazioni>Posizione",
     "general.label.invited": "Invitato",
+    "general.label.busy": "Occupato",
     "general.meet.inProgress": "Chiamata in corso",
     "general.meet.another-call-is-in-progress": "Un'altra chiamata è in corso",
     "general.meet.call": "Talk Call",
@@ -318,6 +320,7 @@ export const translationsGeneral: General = {
     "general.label.permissionLocation": "He has no access to your location.",
     "general.label.SubPermissionLocation": "Enable access, tap Settings> Location",
     "general.label.invited": "Invited",
+    "general.label.busy": "Busy",
     "general.meet.to-this-call": "to this call.",
     "general.meet.inProgress": "Call in progress",
     "general.meet.another-call-is-in-progress": "Another call is in progress",
@@ -432,6 +435,7 @@ export const translationsGeneral: General = {
     "general.label.searchUser": "Rechercher un utilisateur",
     "general.label.inviteUsers": "Inviter des utilisateurs",
     "general.label.invited": "Invité",
+    "general.label.busy": "Occupé",
     "general.label.searchLanguage": "Rechercher Langue",
     "general.label.languageSelect": "Selectioner Langue",
     "general.label.permissionLocation": "Il n'a pas accès à votre position.",
@@ -550,6 +554,7 @@ export const translationsGeneral: General = {
     "general.label.searchUser": "Benutzer suchen",
     "general.label.inviteUsers": "Benutzer einladen",
     "general.label.invited": "Eingeladen",
+    "general.label.busy": "Belebt",
     "general.label.searchLanguage": "Sprache suchen",
     "general.label.languageSelect": "Sprache auswählen",
     "general.label.permissionLocation": "Es hat keinen Zugriff auf Ihren Standort.",
@@ -667,7 +672,8 @@ export const translationsGeneral: General = {
     "general.label.nothingFound": "Nada Encontrado",
     "general.label.searchUser": "Usuario de búsqueda",
     "general.label.inviteUsers": "Invitar a usuarios",
-    "general.label.invited": "Invitado",
+    "general.label.invited": "Ocupado",
+    "general.label.busy": "Belebt",
     "general.label.searchLanguage": "Idioma de búsqueda",
     "general.label.languageSelect": "Seleccione el idioma",
     "general.label.permissionLocation": "No tiene acceso a tu ubicación.",
