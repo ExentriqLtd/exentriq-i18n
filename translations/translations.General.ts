@@ -236,7 +236,7 @@ export const translationsGeneral: General = {
     "general.label.mention": "utente",
     "general.label.requestPermissionTitle": "Accesso alla posizione richiesto",
     "general.label.requestPermissionMessage": "Questa app deve accedere alla tua posizione",
-    "general.label.geolocationShared": "ha condiviso con te una posizione",
+    "general.label.geolocationShared": "ha condiviso una posizione",
     "general.label.noPermissionGallery": "Devi autorizzare l'accesso alla libreria",
     "general.label.noPermissionCamera": "Devi autorizzare l'accesso alla fotocamera",
     "general.label.error": "Errore",
