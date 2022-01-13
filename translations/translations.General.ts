@@ -73,6 +73,7 @@ export interface Translations {
   "general.label.languageSelect": string;
   "general.label.permissionLocation": string;
   "general.label.SubPermissionLocation": string;
+  "general.label.noAudioRecording": string;
   "general.meet.inProgress": string;
   "general.meet.another-call-is-in-progress": string;
   "general.meet.call": string;
@@ -244,6 +245,7 @@ export const translationsGeneral: General = {
     "general.label.ShareNotAvaiable": "Condivisione non disponibile",
     "general.action.resend": "Invia di nuovo",
     "general.action.slideToCancel": "Scorri per annullare",
+    "general.label.noAudioRecording": "Impossibile registrare messaggi vocali durante una chiamata",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -363,6 +365,7 @@ export const translationsGeneral: General = {
     "general.label.ShareNotAvaiable": "Share not avaiable",
     "general.action.resend": "Resend",
     "general.action.slideToCancel": "Slide to cancel",
+    "general.label.noAudioRecording": "Can't record voice messages during a call",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -482,6 +485,7 @@ export const translationsGeneral: General = {
     "general.label.ShareNotAvaiable": "Partager non disponible",
     "general.action.resend": "Renvoyer",
     "general.action.slideToCancel": "Faites glisser pour annuler",
+    "general.label.noAudioRecording": "mpossible d'enregistrer des messages vocaux pendant un appel",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -601,6 +605,7 @@ export const translationsGeneral: General = {
     "general.label.ShareNotAvaiable": "Teilen nicht verfügbar",
     "general.action.resend": "Nochmal senden",
     "general.action.slideToCancel": "Zum Abbrechen schieben",
+    "general.label.noAudioRecording": "Kann während eines Anrufs keine Sprachnachrichten aufnehmen",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -720,6 +725,7 @@ export const translationsGeneral: General = {
     "general.label.ShareNotAvaiable": "Compartir no disponible",
     "general.action.resend": "Enviar de nuevo",
     "general.action.slideToCancel": "Deslizar para cancelar",
+    "general.label.noAudioRecording": "No puedo grabar mensajes de voz durante una llamada",
   },
 };
 
