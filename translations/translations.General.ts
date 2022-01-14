@@ -45,6 +45,7 @@ export interface Translations {
   "general.action.delete": string;
   "general.action.copyMessage": string;
   "general.action.replyMessage": string;
+  "general.action.retryUpload": string;
   "general.action.forwardMessage": string;
   "general.action.sendLocationWarning": string;
   "general.action.openMap": string;
@@ -174,6 +175,7 @@ export const translationsGeneral: General = {
     "general.action.delete": "Elimina",
     "general.action.copyMessage": "Copia Messaggio",
     "general.action.replyMessage": "Rispondi",
+    "general.action.retryUpload": "Riprova",
     "general.action.forwardMessage": "Inoltra",
     "general.action.sendLocationWarning": "Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
     "general.action.openMap": "Apri con Mappe",
@@ -294,6 +296,7 @@ export const translationsGeneral: General = {
     "general.action.delete": "Delete",
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Reply",
+    "general.action.retryUpload": "Retry",
     "general.action.forwardMessage": "Forward",
     "general.action.sendLocationWarning": "To send the location, enter the full address or select the one suggested.",
     "general.action.openMap": "Open with Maps",
@@ -414,6 +417,7 @@ export const translationsGeneral: General = {
     "general.action.delete": "Effacer",
     "general.action.copyMessage": "Copier le message",
     "general.action.replyMessage": "Réponse",
+    "general.action.retryUpload": "Essayer à nouveau",
     "general.action.forwardMessage": "Transmettre",
     "general.action.sendLocationWarning": "Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
     "general.action.openMap": "Ouvrir avec Maps",
@@ -534,6 +538,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Nachricht kopieren",
     "general.action.call": "Wer liebt",
     "general.action.replyMessage": "Antworten",
+    "general.action.retryUpload": "Versuch es noch einmal",
     "general.action.forwardMessage": "Nach vorne",
     "general.action.sendLocationWarning": "Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
     "general.action.openMap": "Mit Karten öffnen",
@@ -605,7 +610,6 @@ export const translationsGeneral: General = {
     "general.label.ShareNotAvaiable": "Teilen nicht verfügbar",
     "general.action.resend": "Nochmal senden",
     "general.action.slideToCancel": "Zum Abbrechen schieben",
-    "general.label.noAudioRecording": "Kann während eines Anrufs keine Sprachnachrichten aufnehmen",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -654,6 +658,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copiar mensaje",
     "general.action.call": "Quien Ama",
     "general.action.replyMessage": "Respuesta",
+    "general.action.retryUpload": "Intentar otra vez",
     "general.action.forwardMessage": "Hacia adelante",
     "general.action.sendLocationWarning": "Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
     "general.action.openMap": "Abrir con Mapas",
