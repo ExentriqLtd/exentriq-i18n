@@ -116,6 +116,7 @@ export interface Translations {
   "general.label.error": string;
   "general.label.changeSettings": string;
   "general.label.ShareNotAvaiable": string;
+  "general.label.gps": string;
   "general.action.resend": string;
   "general.action.slideToCancel": string;
 }
@@ -245,6 +246,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Errore",
     "general.label.changeSettings": "Cambia Impostazioni",
     "general.label.ShareNotAvaiable": "Condivisione non disponibile",
+    "general.label.gps": "Il GPS è disattivato.",
     "general.action.resend": "Invia di nuovo",
     "general.action.slideToCancel": "Scorri per annullare",
     "general.label.noAudioRecording": "Impossibile registrare messaggi vocali durante una chiamata",
@@ -366,6 +368,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Error",
     "general.label.changeSettings": "Change Settings",
     "general.label.ShareNotAvaiable": "Share not avaiable",
+    "general.label.gps": "GPS is disabled.",
     "general.action.resend": "Resend",
     "general.action.slideToCancel": "Slide to cancel",
     "general.label.noAudioRecording": "Can't record voice messages during a call",
@@ -487,6 +490,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Erreur",
     "general.label.changeSettings": "Modifier les paramètres",
     "general.label.ShareNotAvaiable": "Partager non disponible",
+    "general.label.gps": "Le GPS est désactivé.",
     "general.action.resend": "Renvoyer",
     "general.action.slideToCancel": "Faites glisser pour annuler",
     "general.label.noAudioRecording": "mpossible d'enregistrer des messages vocaux pendant un appel",
@@ -608,6 +612,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Fehler",
     "general.label.changeSettings": "Einstellungen ändern",
     "general.label.ShareNotAvaiable": "Teilen nicht verfügbar",
+    "general.label.gps": "GPS ist deaktiviert.",
     "general.action.resend": "Nochmal senden",
     "general.action.slideToCancel": "Zum Abbrechen schieben",
   },
@@ -728,6 +733,7 @@ export const translationsGeneral: General = {
     "general.label.error": "Error",
     "general.label.changeSettings": "Cambiar ajustes",
     "general.label.ShareNotAvaiable": "Compartir no disponible",
+    "general.label.gps": "GPS está deshabilitado.",
     "general.action.resend": "Enviar de nuevo",
     "general.action.slideToCancel": "Deslizar para cancelar",
     "general.label.noAudioRecording": "No puedo grabar mensajes de voz durante una llamada",
