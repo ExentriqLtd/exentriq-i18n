@@ -119,6 +119,8 @@ export interface Translations {
   "general.label.gps": string;
   "general.action.resend": string;
   "general.action.slideToCancel": string;
+  "general.google.login.errorGeneric": string;
+  "general.google.login.playServiceNotAvailable": string;
 }
 
 interface General {
@@ -250,6 +252,8 @@ export const translationsGeneral: General = {
     "general.action.resend": "Invia di nuovo",
     "general.action.slideToCancel": "Scorri per annullare",
     "general.label.noAudioRecording": "Impossibile registrare messaggi vocali durante una chiamata",
+    "general.google.login.errorGeneric": "Si è verificato un errore",
+    "general.google.login.playServiceNotAvailable": "Play services non disponibile",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -372,6 +376,8 @@ export const translationsGeneral: General = {
     "general.action.resend": "Resend",
     "general.action.slideToCancel": "Slide to cancel",
     "general.label.noAudioRecording": "Can't record voice messages during a call",
+    "general.google.login.errorGeneric": "An error has occurred",
+    "general.google.login.playServiceNotAvailable": "Play services not available",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -494,6 +500,8 @@ export const translationsGeneral: General = {
     "general.action.resend": "Renvoyer",
     "general.action.slideToCancel": "Faites glisser pour annuler",
     "general.label.noAudioRecording": "mpossible d'enregistrer des messages vocaux pendant un appel",
+    "general.google.login.errorGeneric": "Une erreur est survenue",
+    "general.google.login.playServiceNotAvailable": "Services de jeu non disponibles",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -615,6 +623,9 @@ export const translationsGeneral: General = {
     "general.label.gps": "GPS ist deaktiviert.",
     "general.action.resend": "Nochmal senden",
     "general.action.slideToCancel": "Zum Abbrechen schieben",
+    "general.label.noAudioRecording": "Während eines Anrufs können keine Sprachnachrichten aufgezeichnet werden",
+    "general.google.login.errorGeneric": "Ein Fehler ist aufgetreten",
+    "general.google.login.playServiceNotAvailable": "Spieldienste nicht verfügbar",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -737,6 +748,8 @@ export const translationsGeneral: General = {
     "general.action.resend": "Enviar de nuevo",
     "general.action.slideToCancel": "Deslizar para cancelar",
     "general.label.noAudioRecording": "No puedo grabar mensajes de voz durante una llamada",
+    "general.google.login.errorGeneric": "Se ha producido un error",
+    "general.google.login.playServiceNotAvailable": "Servicios de juego no disponibles",
   },
 };
 
