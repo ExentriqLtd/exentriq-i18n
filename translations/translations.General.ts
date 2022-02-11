@@ -210,7 +210,7 @@ export const translationsGeneral: General = {
     "general.label.invited": "Invitato",
     "general.label.busy": "Occupato",
     "general.meet.inProgress": "Chiamata in corso",
-    "general.meet.another-call-is-in-progress": "Un'altra chiamata è in corso",
+    "general.meet.another-call-is-in-progress": "Un' altra chiamata è in corso",
     "general.meet.call": "Talk Call",
     "general.meet.invite": "Invita",
     "general.meet.to-this-call": "a questa chiamata",
