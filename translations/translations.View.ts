@@ -3,6 +3,7 @@
 interface Translations {
   "view.title.chat-list": string;
   "view.title.call-list": string;
+  "view.title.activities": string;
   "view.title.googleMap": string;
   "view.title.settings": string;
   "view.title.user-status": string;
@@ -25,6 +26,7 @@ export const translationsView: View = {
   it: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Chiamate",
+    "view.title.activities": "Attività",
     "view.title.googleMap": "Posizione",
     "view.title.settings": "Impostazioni",
     "view.title.user-status": "Status",
@@ -37,6 +39,7 @@ export const translationsView: View = {
   en: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Calls",
+    "view.title.activities": "Attività",
     "view.title.googleMap": "Location",
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
@@ -49,6 +52,7 @@ export const translationsView: View = {
   fr: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Appels",
+    "view.title.activities": "Activités",
     "view.title.googleMap": "Emplacement",
     "view.title.settings": "Paramètres",
     "view.title.user-status": "Statut",
@@ -61,6 +65,7 @@ export const translationsView: View = {
   de: {
     "view.title.chat-list": "Plaudern",
     "view.title.call-list": "Anrufe",
+    "view.title.activities": "Aktivitäten",
     "view.title.googleMap": "Lage",
     "view.title.settings": "Einstellungen",
     "view.title.user-status": "Status",
@@ -73,6 +78,7 @@ export const translationsView: View = {
   es: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Llamadas",
+    "view.title.activities": "Ocupaciones",
     "view.title.googleMap": "Localización",
     "view.title.settings": "Ajustes",
     "view.title.user-status": "Estado",
