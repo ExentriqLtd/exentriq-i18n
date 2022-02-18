@@ -35,6 +35,8 @@ export interface Translations {
   "general.label.errors": string;
   "general.label.filter": string;
   "general.label.no-results": string;
+  "general.label.redirectEDO": string;
+  "general.label.exentriqEDO": string;
   "general.action.choose": string;
   "general.action.location": string;
   "general.action.camera": string;
@@ -169,6 +171,8 @@ export const translationsGeneral: General = {
     "general.label.forgot-password": "Recupera password",
     "general.label.errors": "Ops! Il server non sembra essere disponibile :(",
     "general.label.no-results": "Nessun risultato trovato",
+    "general.label.redirectEDO": "Questa funzione è disponibile su",
+    "general.label.exentriqEDO": "Exentriq EDO",
     "general.action.choose": "Scegliere un'opzione",
     "general.action.location": "Posizione",
     "general.action.camera": "Fotocamera",
@@ -294,6 +298,8 @@ export const translationsGeneral: General = {
     "general.label.forgot-password": "Forgot password",
     "general.label.errors": "Ops! Server may be down :(",
     "general.label.no-results": "No results",
+    "general.label.redirectEDO": "This feature is available on",
+    "general.label.exentriqEDO": "Exentriq EDO",
     "general.action.choose": "Choose an option",
     "general.action.location": "Location",
     "general.action.camera": "From Camera",
@@ -419,6 +425,8 @@ export const translationsGeneral: General = {
     "general.label.forgot-password": "Mot de passe oublié",
     "general.label.errors": "Ops! Le serveur est peut-être en panne :(",
     "general.label.no-results": "Aucun résultat",
+    "general.label.redirectEDO": "Cette fonctionnalité est disponible sur",
+    "general.label.exentriqEDO": "Exentriq EDO",
     "general.action.choose": "Choisis une option",
     "general.action.location": "Position",
     "general.action.camera": "Caméra",
@@ -502,7 +510,6 @@ export const translationsGeneral: General = {
     "general.label.gps": "Le GPS est désactivé.",
     "general.action.resend": "Renvoyer",
     "general.action.slideToCancel": "Faites glisser pour annuler",
-    "general.label.noAudioRecording": "mpossible d'enregistrer des messages vocaux pendant un appel",
     "general.google.login.errorGeneric": "Une erreur est survenue",
     "general.google.login.playServiceNotAvailable": "Services de jeu non disponibles",
     "general.label.noAudioRecording": "impossible d'enregistrer des messages vocaux pendant un appel",
@@ -545,6 +552,8 @@ export const translationsGeneral: General = {
     "general.label.forgot-password": "Passwort vergessen",
     "general.label.errors": "Ops! Server ist möglicherweise ausgefallen :(",
     "general.label.no-results": "Keine Ergebnisse",
+    "general.label.redirectEDO": "Esta función está disponible en",
+    "general.label.exentriqEDO": "Exentriq EDO",
     "general.action.choose": "Wähle eine Option",
     "general.action.location": "Position",
     "general.action.camera": "Kamera",
@@ -670,6 +679,8 @@ export const translationsGeneral: General = {
     "general.label.forgot-password": "Se te olvidó tu contraseña",
     "general.label.errors": "¡Ops! El servidor puede estar inactivo:(",
     "general.label.no-results": "No hay resultados",
+    "general.label.redirectEDO": "Diese Funktion ist verfügbar auf",
+    "general.label.exentriqEDO": "Exentriq EDO",
     "general.action.choose": "Elija una opción",
     "general.action.location": "Posición",
     "general.action.camera": "De la cámara",
