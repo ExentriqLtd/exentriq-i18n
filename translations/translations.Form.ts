@@ -4,6 +4,8 @@ export interface Translations {
   "form.login.username": string;
   "form.login.password": string;
   "form.login.button": string;
+  "form.download.button": string;
+  "form.open.button": string;
   "form.login.button.reset-password": string;
   "form.login.label.dont-have-an-account": string;
   "form.signup.email": string;
@@ -39,6 +41,8 @@ export const translationsForm: Form = {
     "form.login.username": "Nome Utente",
     "form.login.password": "Password",
     "form.login.button": "Accedi",
+    "form.download.button": 'Download App',
+    "form.open.button": 'Apri App',
     "form.login.button.reset-password": "Password dimenticata?",
     "form.login.label.dont-have-an-account": "Non hai un account?",
     "form.signup.email": "La tua migliore email",
@@ -64,6 +68,8 @@ export const translationsForm: Form = {
     "form.login.username": "Username",
     "form.login.password": "Password",
     "form.login.button": "Login",
+    "form.download.button": 'Download App',
+    "form.open.button": 'Open App',
     "form.login.button.reset-password": "Forgot your password?",
     "form.login.label.dont-have-an-account": "Don't have an account?",
     "form.signup.email": "Your best email",
@@ -89,6 +95,8 @@ export const translationsForm: Form = {
     "form.login.username": "Nom d'utilisateur",
     "form.login.password": "Mot de passe",
     "form.login.button": "Connexion",
+    "form.download.button": 'Download App',
+    "form.open.button": 'Ouvrir App',
     "form.login.button.reset-password": "Mot de passe oublié?",
     "form.login.label.dont-have-an-account": "Ne pas avoir de compte?",
     "form.signup.email": "Votre e-mail",
@@ -114,6 +122,8 @@ export const translationsForm: Form = {
     "form.login.username": "Nutzername",
     "form.login.password": "Passwort",
     "form.login.button": "Anmeldung",
+    "form.download.button": 'Download App',
+    "form.open.button": 'Öffne App',
     "form.login.button.reset-password": "Passwort vergessen?",
     "form.login.label.dont-have-an-account": "Sie haben kein Konto?",
     "form.signup.email": "Deine E-Mail",
@@ -139,6 +149,8 @@ export const translationsForm: Form = {
     "form.login.username": "Nombre de usuario",
     "form.login.password": "Contraseña",
     "form.login.button": "Acceso",
+    "form.download.button": 'Download App',
+    "form.open.button": 'Abre la App',
     "form.login.button.reset-password": "¿Olvidaste tu contraseña?",
     "form.login.label.dont-have-an-account": "¿No tienes una cuenta?",
     "form.signup.email": "Tu mejor correo electrónico",
