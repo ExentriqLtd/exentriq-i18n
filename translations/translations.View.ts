@@ -39,7 +39,7 @@ export const translationsView: View = {
   en: {
     "view.title.chat-list": "Chat",
     "view.title.call-list": "Calls",
-    "view.title.activities": "Attività",
+    "view.title.activities": "Activities",
     "view.title.googleMap": "Location",
     "view.title.settings": "Settings",
     "view.title.user-status": "Status",
