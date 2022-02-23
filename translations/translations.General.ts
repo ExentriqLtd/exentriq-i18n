@@ -37,6 +37,7 @@ export interface Translations {
   "general.label.no-results": string;
   "general.label.redirectEDO": string;
   "general.label.exentriqEDO": string;
+  "general.label.open": string;
   "general.action.choose": string;
   "general.action.location": string;
   "general.action.camera": string;
@@ -173,6 +174,7 @@ export const translationsGeneral: General = {
     "general.label.no-results": "Nessun risultato trovato",
     "general.label.redirectEDO": "Questa funzione è disponibile su",
     "general.label.exentriqEDO": "Exentriq EDO",
+    "general.label.open": "Apri",
     "general.action.choose": "Scegliere un'opzione",
     "general.action.location": "Posizione",
     "general.action.camera": "Fotocamera",
@@ -300,6 +302,7 @@ export const translationsGeneral: General = {
     "general.label.no-results": "No results",
     "general.label.redirectEDO": "This feature is available on",
     "general.label.exentriqEDO": "Exentriq EDO",
+    "general.label.open": "Open",
     "general.action.choose": "Choose an option",
     "general.action.location": "Location",
     "general.action.camera": "From Camera",
@@ -427,6 +430,7 @@ export const translationsGeneral: General = {
     "general.label.no-results": "Aucun résultat",
     "general.label.redirectEDO": "Cette fonctionnalité est disponible sur",
     "general.label.exentriqEDO": "Exentriq EDO",
+    "general.label.open": "Ouvrir",
     "general.action.choose": "Choisis une option",
     "general.action.location": "Position",
     "general.action.camera": "Caméra",
@@ -554,6 +558,7 @@ export const translationsGeneral: General = {
     "general.label.no-results": "Keine Ergebnisse",
     "general.label.redirectEDO": "Esta función está disponible en",
     "general.label.exentriqEDO": "Exentriq EDO",
+    "general.label.open": "Offen",
     "general.action.choose": "Wähle eine Option",
     "general.action.location": "Position",
     "general.action.camera": "Kamera",
@@ -681,6 +686,7 @@ export const translationsGeneral: General = {
     "general.label.no-results": "No hay resultados",
     "general.label.redirectEDO": "Diese Funktion ist verfügbar auf",
     "general.label.exentriqEDO": "Exentriq EDO",
+    "general.label.open": "Abre",
     "general.action.choose": "Elija una opción",
     "general.action.location": "Posición",
     "general.action.camera": "De la cámara",
