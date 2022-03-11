@@ -25,7 +25,7 @@ export const translationsSidebar: Sidebar = {
   en: {
     "sidebar.label.status": "Status",
     "sidebar.label.manage": "Manage",
-    "sidebar.button.my-page": "My page",
+    "sidebar.button.my-page": "My Account",
     "sidebar.button.settings": "Settings",
   },
   fr: {
