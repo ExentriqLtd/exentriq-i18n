@@ -39,7 +39,7 @@ export const translationsButton: Button = {
     "button.signup-success": "Back to login",
     "button.create-new-group": "Create New Group",
     "button.logout": "Logout",
-    "button.my-page": "My Page",
+    "button.my-page": "My Account",
     "button.delete.room": "Hide",
     "button.fab.user": "Direct chat",
     "button.fab.call": "Direct call",
