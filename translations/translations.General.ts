@@ -333,7 +333,7 @@ export const translationsGeneral: General = {
     "general.label.removeTranslation": "Do you want to remove the translation for this chat?",
     "general.label.yes": "Yes",
     "general.label.no": "No",
-    "general.label.addNewGroup": "New group",
+    "general.label.addNewGroup": "Create new group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
     "general.label.inviteUsers": "Invite Users",
