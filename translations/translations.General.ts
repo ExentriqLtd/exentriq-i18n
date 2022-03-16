@@ -125,6 +125,8 @@ export interface Translations {
   "general.google.login.errorGeneric": string;
   "general.google.login.playServiceNotAvailable": string;
   "general.label.urlNotSupported": string;
+  "general.label.already.profile": string;
+  "general.label.login.here": string;
 }
 
 interface General {
@@ -262,6 +264,8 @@ export const translationsGeneral: General = {
     "general.google.login.errorGeneric": "Si è verificato un errore",
     "general.google.login.playServiceNotAvailable": "Play services non disponibile",
     "general.label.urlNotSupported": "URL non trovato",
+    "general.label.already.profile": "Hai già un account?",
+    "general.label.login.here": "Accedi qui",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -389,7 +393,9 @@ export const translationsGeneral: General = {
     "general.label.noAudioRecording": "Can't record voice messages during a call",
     "general.google.login.errorGeneric": "An error has occurred",
     "general.google.login.playServiceNotAvailable": "Play services not available",
-    "general.label.urlNotSupported": "URL not supported"
+    "general.label.urlNotSupported": "URL not supported",
+    "general.label.already.profile": "Already have a profile?",
+    "general.label.login.here": "Login here",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -518,6 +524,8 @@ export const translationsGeneral: General = {
     "general.google.login.playServiceNotAvailable": "Services de jeu non disponibles",
     "general.label.noAudioRecording": "impossible d'enregistrer des messages vocaux pendant un appel",
     "general.label.urlNotSupported": "URL non prise en charge",
+    "general.label.already.profile": "Vous avez déjà un profil?",
+    "general.label.login.here": "Connectez-vous ici",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -646,6 +654,8 @@ export const translationsGeneral: General = {
     "general.google.login.errorGeneric": "Ein Fehler ist aufgetreten",
     "general.google.login.playServiceNotAvailable": "Spieldienste nicht verfügbar",
     "general.label.urlNotSupported": "URL nicht unterstützt",
+    "general.label.already.profile": "Sie haben bereits ein Profil?",
+    "general.label.login.here": "Hier anmelden",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -774,6 +784,8 @@ export const translationsGeneral: General = {
     "general.google.login.errorGeneric": "Se ha producido un error",
     "general.google.login.playServiceNotAvailable": "Servicios de juego no disponibles",
     "general.label.urlNotSupported": "URL no admitida",
+    "general.label.already.profile": "¿Ya tienes un perfil?",
+    "general.label.login.here": "Entre aquí",
   },
 };
 
