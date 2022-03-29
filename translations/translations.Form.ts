@@ -25,6 +25,7 @@ export interface Translations {
   "form.new-group.name": string;
   "form.message.input": string;
   "form.searchbar.user": string;
+  "form.searchbar.add.user": string;
   "form.location.sharing": string;
 }
 
@@ -62,6 +63,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Nome del gruppo",
     "form.message.input": "Scrivi...",
     "form.searchbar.user": "Cerca",
+    "form.searchbar.add.user": "Aggiungi utenti",
     "form.location.sharing": "Inserisci la posizione",
   },
   en: {
@@ -89,6 +91,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Group Name",
     "form.message.input": "Write...",
     "form.searchbar.user": "Search",
+    "form.searchbar.add.user": "Add users",
     "form.location.sharing": "Enter location",
   },
   fr: {
@@ -116,6 +119,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Nom de groupe",
     "form.message.input": "Écrire...",
     "form.searchbar.user": "Chercher",
+    "form.searchbar.add.user": "ajouter des utilisateurs",
     "form.location.sharing": "Entrer l'emplacement",
   },
   de: {
@@ -143,6 +147,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Gruppenname",
     "form.message.input": "Schreiben...",
     "form.searchbar.user": "Suche",
+    "form.searchbar.add.user": "Benutzer hinzufügen",
     "form.location.sharing": "Ort eingeben",
   },
   es: {
@@ -170,6 +175,7 @@ export const translationsForm: Form = {
     "form.new-group.name": "Nombre del grupo",
     "form.message.input": "Escribir...",
     "form.searchbar.user": "Buscar",
+    "form.searchbar.add.user": "Añadir usuarios",
     "form.location.sharing": "Ingrese la ubicación",
   },
 };
