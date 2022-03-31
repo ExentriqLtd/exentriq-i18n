@@ -54,6 +54,7 @@ export interface Translations {
   "general.action.openMap": string;
   "general.action.openGMap": string;
   "general.action.openWaze": string;
+  "general.action.task": string;
   "general.label.forwardedMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
@@ -193,6 +194,7 @@ export const translationsGeneral: General = {
     "general.action.openMap": "Apri con Mappe",
     "general.action.openGMap": "Apri con Google Maps",
     "general.action.openWaze": "Apri con Waze",
+    "general.action.task": "Task",
     "general.label.forwardedMessage": "Inoltrato",
     "general.label.searchMessages": "Cerca Messaggi",
     "general.label.chatList": "Lista chat",
@@ -323,6 +325,7 @@ export const translationsGeneral: General = {
     "general.action.openMap": "Open with Maps",
     "general.action.openGMap": "Open with Google Maps",
     "general.action.openWaze": "Open with Waze",
+    "general.action.task": "Task",
     "general.label.forwardedMessage": "Forwarded",
     "general.label.searchMessages": "Search Messages",
     "general.label.chatList": "Chat List",
@@ -453,6 +456,7 @@ export const translationsGeneral: General = {
     "general.action.openMap": "Ouvrir avec Maps",
     "general.action.openGMap": "Ouvrir avec Google Maps",
     "general.action.openWaze": "Ouvrir avec Waze",
+    "general.action.task": "Task",
     "general.label.forwardedMessage": "Transmis",
     "general.label.searchMessages": "Rechercher des messages",
     "general.label.chatList": "Liste de chat",
@@ -583,6 +587,7 @@ export const translationsGeneral: General = {
     "general.action.openMap": "Mit Karten öffnen",
     "general.action.openGMap": "Mit Google Maps öffnen",
     "general.action.openWaze": "Öffnen mit waze",
+    "general.action.task": "Task",
     "general.label.forwardedMessage": "Weitergeleitet",
     "general.label.searchMessages": "Nachrichten suchen",
     "general.label.chatList": "Chat-Liste",
@@ -713,6 +718,7 @@ export const translationsGeneral: General = {
     "general.action.openMap": "Abrir con Mapas",
     "general.action.openGMap": "Abrir con Google Maps",
     "general.action.openWaze": "Abrir con Waze",
+    "general.action.task": "Task",
     "general.label.forwardedMessage": "Reenviado",
     "general.label.searchMessages": "Muscar mensajes",
     "general.label.chatList": "Lista de chat",
