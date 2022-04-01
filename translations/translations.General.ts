@@ -127,6 +127,8 @@ export interface Translations {
   "general.label.urlNotSupported": string;
   "general.label.already.profile": string;
   "general.label.login.here": string;
+  "general.label.sendamessage": string;
+  "general.label.startacall": string;
 }
 
 interface General {
@@ -266,6 +268,8 @@ export const translationsGeneral: General = {
     "general.label.urlNotSupported": "URL non trovato",
     "general.label.already.profile": "Hai già un account?",
     "general.label.login.here": "Accedi qui",
+    "general.label.sendamessage": "Invia un messaggio",
+    "general.label.startacall": "Inizia una chiamata",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -396,6 +400,8 @@ export const translationsGeneral: General = {
     "general.label.urlNotSupported": "URL not supported",
     "general.label.already.profile": "Already have a profile?",
     "general.label.login.here": "Login here",
+    "general.label.sendamessage": "Send a Message",
+    "general.label.startacall": "Start a Call",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -526,6 +532,8 @@ export const translationsGeneral: General = {
     "general.label.urlNotSupported": "URL non prise en charge",
     "general.label.already.profile": "Vous avez déjà un profil?",
     "general.label.login.here": "Connectez-vous ici",
+    "general.label.sendamessage": "Envoyer un message",
+    "general.label.startacall": "Démarrer un appel",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -656,6 +664,8 @@ export const translationsGeneral: General = {
     "general.label.urlNotSupported": "URL nicht unterstützt",
     "general.label.already.profile": "Sie haben bereits ein Profil?",
     "general.label.login.here": "Hier anmelden",
+    "general.label.sendamessage": "Eine Nachricht schicken",
+    "general.label.startacall": "Anruf starten",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -786,6 +796,8 @@ export const translationsGeneral: General = {
     "general.label.urlNotSupported": "URL no admitida",
     "general.label.already.profile": "¿Ya tienes un perfil?",
     "general.label.login.here": "Entre aquí",
+    "general.label.sendamessage": "Enviar un mensaje",
+    "general.label.startacall": "Iniciar una llamada",
   },
 };
 
