@@ -71,6 +71,8 @@ export interface Translations {
   "general.label.addNewGroup": string;
   "general.label.nothingFound": string;
   "general.label.searchUser": string;
+  "general.label.emailForm": string;
+  "general.label.inviteByEmail": string;
   "general.label.inviteUsers": string;
   "general.label.invited": string;
   "general.label.searchLanguage": string;
@@ -212,7 +214,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "Nuovo gruppo",
     "general.label.nothingFound": "Nessun elemento trovato",
     "general.label.searchUser": "Cerca Utente",
-    "general.label.inviteUsers": "Invita Utenti",
+    "general.label.emailForm": "Aggiungi un' e-mail al tuo invito",
+    "general.label.inviteByEmail": "Invita tramite email",
+    "general.label.inviteUsers": "Invita",
     "general.label.searchLanguage": "Cerca lingua",
     "general.label.languageSelect": "Seleziona Lingua",
     "general.label.permissionLocation": "Non ha accesso alla tua posizione.",
@@ -344,7 +348,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "Create new group",
     "general.label.nothingFound": "Nothing Found",
     "general.label.searchUser": "Search User",
-    "general.label.inviteUsers": "Invite Users",
+    "general.label.emailForm": "Add an email to send your invitation",
+    "general.label.inviteByEmail": "Invite by email",
+    "general.label.inviteUsers": "Invite",
     "general.label.searchLanguage": "Search Language",
     "general.label.languageSelect": "Select Language",
     "general.label.permissionLocation": "He has no access to your location.",
@@ -476,7 +482,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "Nouveau groupe",
     "general.label.nothingFound": "Rien n'a été trouvé",
     "general.label.searchUser": "Rechercher un utilisateur",
-    "general.label.inviteUsers": "Inviter des utilisateurs",
+    "general.label.emailForm": "Ajoutez un e-mail pour envoyer votre invitation",
+    "general.label.inviteByEmail": "Inviter par email",
+    "general.label.inviteUsers": "Inviter",
     "general.label.invited": "Invité",
     "general.label.busy": "Occupé",
     "general.label.searchLanguage": "Rechercher Langue",
@@ -608,7 +616,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "Neue Gruppe",
     "general.label.nothingFound": "Nichts gefunden",
     "general.label.searchUser": "Benutzer suchen",
-    "general.label.inviteUsers": "Benutzer einladen",
+    "general.label.emailForm": "Fügen Sie eine E-Mail hinzu, um Ihre Einladung zu senden",
+    "general.label.inviteByEmail": "Einladung per email",
+    "general.label.inviteUsers": "Benutzer",
     "general.label.invited": "Eingeladen",
     "general.label.busy": "Belebt",
     "general.label.searchLanguage": "Sprache suchen",
@@ -740,7 +750,9 @@ export const translationsGeneral: General = {
     "general.label.addNewGroup": "Nuevo grupo",
     "general.label.nothingFound": "Nada Encontrado",
     "general.label.searchUser": "Usuario de búsqueda",
-    "general.label.inviteUsers": "Invitar a usuarios",
+    "general.label.emailForm": "Agrega un correo electrónico para enviar tu invitación",
+    "general.label.inviteByEmail": "Invitar por correo electrónico",
+    "general.label.inviteUsers": "Invitar",
     "general.label.invited": "Ocupado",
     "general.label.busy": "Belebt",
     "general.label.searchLanguage": "Idioma de búsqueda",

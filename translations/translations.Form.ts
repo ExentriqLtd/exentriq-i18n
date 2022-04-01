@@ -26,7 +26,9 @@ export interface Translations {
   "form.message.input": string;
   "form.searchbar.user": string;
   "form.searchbar.add.user": string;
+  "form.searchbar.contacts": string;
   "form.location.sharing": string;
+  "form.invite.mail": string;
 }
 
 interface Form {
@@ -64,7 +66,9 @@ export const translationsForm: Form = {
     "form.message.input": "Scrivi...",
     "form.searchbar.user": "Cerca",
     "form.searchbar.add.user": "Aggiungi utenti",
+    "form.searchbar.contacts": "Cerca dai contatti",
     "form.location.sharing": "Inserisci la posizione",
+    "form.invite.mail": "",
   },
   en: {
     "form.login.username": "Username",
@@ -90,6 +94,7 @@ export const translationsForm: Form = {
     "form.profile.address": "Address",
     "form.new-group.name": "Group Name",
     "form.message.input": "Write...",
+    "form.searchbar.contacts": "Search contacts",
     "form.searchbar.user": "Search",
     "form.searchbar.add.user": "Add users",
     "form.location.sharing": "Enter location",
@@ -120,6 +125,7 @@ export const translationsForm: Form = {
     "form.message.input": "Écrire...",
     "form.searchbar.user": "Chercher",
     "form.searchbar.add.user": "ajouter des utilisateurs",
+    "form.searchbar.contacts": "Rechercher des contacts",
     "form.location.sharing": "Entrer l'emplacement",
   },
   de: {
@@ -148,6 +154,7 @@ export const translationsForm: Form = {
     "form.message.input": "Schreiben...",
     "form.searchbar.user": "Suche",
     "form.searchbar.add.user": "Benutzer hinzufügen",
+    "form.searchbar.contacts": "Kontakte durchsuchen",
     "form.location.sharing": "Ort eingeben",
   },
   es: {
@@ -176,6 +183,7 @@ export const translationsForm: Form = {
     "form.message.input": "Escribir...",
     "form.searchbar.user": "Buscar",
     "form.searchbar.add.user": "Añadir usuarios",
+    "form.searchbar.contacts": "Buscar contactos",
     "form.location.sharing": "Ingrese la ubicación",
   },
 };
