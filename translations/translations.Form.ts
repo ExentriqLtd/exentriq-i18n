@@ -41,7 +41,7 @@ interface Form {
 
 export const translationsForm: Form = {
   it: {
-    "form.login.username": "Nome Utente o Email",
+    "form.login.username": "Nome Utente o email",
     "form.login.password": "Password",
     "form.login.button": "Accedi",
     "form.download.button": 'Download App',
@@ -71,7 +71,7 @@ export const translationsForm: Form = {
     "form.invite.mail": "",
   },
   en: {
-    "form.login.username": "Username or Email",
+    "form.login.username": "Username or email",
     "form.login.password": "Password",
     "form.login.button": "Login",
     "form.download.button": 'Download App',
@@ -158,7 +158,7 @@ export const translationsForm: Form = {
     "form.location.sharing": "Ort eingeben",
   },
   es: {
-    "form.login.username": "Nombre de usuario o Email",
+    "form.login.username": "Nombre de usuario o email",
     "form.login.password": "Contraseña",
     "form.login.button": "Acceso",
     "form.download.button": 'Download App',
