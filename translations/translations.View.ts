@@ -33,7 +33,7 @@ export const translationsView: View = {
     "view.title.new-room": "Nuova chat",
     "view.title.new-call": "Nuova Chiamata",
     "view.title.new-group": "Crea nuovo gruppo",
-    "view.title.new-group-call": "Crea Chiamata di gruppo",
+    "view.title.new-group-call": "Crea nuova Chiamata di gruppo",
     "view.user.is-typing": "sta scrivendo...",
   },
   en: {
@@ -46,7 +46,7 @@ export const translationsView: View = {
     "view.title.new-room": "New chat",
     "view.title.new-call": "New call",
     "view.title.new-group": "Create new group",
-    "view.title.new-group-call": "Create call group",
+    "view.title.new-group-call": "Create new group call",
     "view.user.is-typing": "is typing...",
   },
   fr: {
@@ -59,7 +59,7 @@ export const translationsView: View = {
     "view.title.new-room": "Nouvelle discussion",
     "view.title.new-call": "Nouvel appel",
     "view.title.new-group": "Créer un nouveau groupe",
-    "view.title.new-group-call": "Créer un groupe d'appel",
+    "view.title.new-group-call": "Créer un nouveau groupe d'appel",
     "view.user.is-typing": "est en train d'écrire...",
   },
   de: {
@@ -72,7 +72,7 @@ export const translationsView: View = {
     "view.title.new-room": "Neuer Chat",
     "view.title.new-call": "Neuer Anruf",
     "view.title.new-group": "Neue Gruppe erstellen",
-    "view.title.new-group-call": "Anrufgruppe erstellen",
+    "view.title.new-group-call": "Neue Anrufgruppe erstellen",
     "view.user.is-typing": "tippt...",
   },
   es: {
@@ -85,7 +85,7 @@ export const translationsView: View = {
     "view.title.new-room": "nueva llamada",
     "view.title.new-call": "Nueva llamada",
     "view.title.new-group": "Crear nuevo grupo",
-    "view.title.new-group-call": "Crear grupo de llamadas",
+    "view.title.new-group-call": "Crear nuevo grupo de llamadas",
     "view.user.is-typing": "esta escribiendo...",
   },
 };
