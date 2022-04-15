@@ -41,7 +41,7 @@ interface Form {
 
 export const translationsForm: Form = {
   it: {
-    "form.login.username": "Nome Utente",
+    "form.login.username": "Nome Utente o email",
     "form.login.password": "Password",
     "form.login.button": "Accedi",
     "form.download.button": 'Download App',
@@ -71,7 +71,7 @@ export const translationsForm: Form = {
     "form.invite.mail": "",
   },
   en: {
-    "form.login.username": "Username",
+    "form.login.username": "Username or email",
     "form.login.password": "Password",
     "form.login.button": "Login",
     "form.download.button": 'Download App',
@@ -100,7 +100,7 @@ export const translationsForm: Form = {
     "form.location.sharing": "Enter location",
   },
   fr: {
-    "form.login.username": "Nom d'utilisateur",
+    "form.login.username": "Nom d'utilisateur ou email",
     "form.login.password": "Mot de passe",
     "form.login.button": "Connexion",
     "form.download.button": 'Download App',
@@ -129,7 +129,7 @@ export const translationsForm: Form = {
     "form.location.sharing": "Entrer l'emplacement",
   },
   de: {
-    "form.login.username": "Nutzername",
+    "form.login.username": "Benutzername oder E-Mail-Adresse",
     "form.login.password": "Passwort",
     "form.login.button": "Anmeldung",
     "form.download.button": 'Download App',
@@ -158,7 +158,7 @@ export const translationsForm: Form = {
     "form.location.sharing": "Ort eingeben",
   },
   es: {
-    "form.login.username": "Nombre de usuario",
+    "form.login.username": "Nombre de usuario o email",
     "form.login.password": "Contraseña",
     "form.login.button": "Acceso",
     "form.download.button": 'Download App',
