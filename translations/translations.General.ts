@@ -12,6 +12,7 @@ export interface Translations {
   "general.message.start-conversation": string;
   "general.message.new": string;
   "general.messsage.jump-recent": string;
+  "general.messsage.unsent": string;
   "general.message.read-more": string;
   "general.message.reply.label": string;
   "general.message.reply.image": string;
@@ -49,6 +50,7 @@ export interface Translations {
   "general.action.copyMessage": string;
   "general.action.replyMessage": string;
   "general.action.retryUpload": string;
+  "general.action.close": string;
   "general.action.forwardMessage": string;
   "general.action.sendLocationWarning": string;
   "general.action.openMap": string;
@@ -155,6 +157,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation": "Inizio della conversazione",
     "general.message.new": "Nuovo Messaggio",
     "general.messsage.jump-recent": "Salta ai messaggi recenti",
+    "general.messsage.unsent": "Messaggio non inviato. Riprova",
     "general.message.read-more": "Continua a leggere",
     "general.message.reply.label": "Tu",
     "general.message.reply.image": "Immagine",
@@ -192,6 +195,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copia Messaggio",
     "general.action.replyMessage": "Rispondi",
     "general.action.retryUpload": "Riprova",
+    "general.action.close": "Chiudi",
     "general.action.forwardMessage": "Inoltra",
     "general.action.sendLocationWarning": "Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
     "general.action.openMap": "Apri con Mappe",
@@ -289,6 +293,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation": "Start of conversation",
     "general.message.new": "New Message",
     "general.messsage.jump-recent": "Jump to recent messages",
+    "general.messsage.unsent": " Message not sent. Try again",
     "general.message.read-more": "Read more",
     "general.message.reply.label": "You",
     "general.message.reply.image": "Image",
@@ -326,6 +331,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copy Message",
     "general.action.replyMessage": "Reply",
     "general.action.retryUpload": "Retry",
+    "general.action.close": "Close",
     "general.action.forwardMessage": "Forward",
     "general.action.sendLocationWarning": "To send the location, enter the full address or select the one suggested.",
     "general.action.openMap": "Open with Maps",
@@ -423,6 +429,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation": "Début de la conversation",
     "general.message.new": "Nouveau message",
     "general.messsage.jump-recent": "Aller aux messages récents",
+    "general.messsage.unsent": "Message non envoyé. Réessayer",
     "general.message.read-more": "Lire la suite",
     "general.message.reply.label": "Toi",
     "general.message.reply.image": "Image",
@@ -460,6 +467,7 @@ export const translationsGeneral: General = {
     "general.action.copyMessage": "Copier le message",
     "general.action.replyMessage": "Réponse",
     "general.action.retryUpload": "Essayer à nouveau",
+    "general.action.close": "Proche",
     "general.action.forwardMessage": "Transmettre",
     "general.action.sendLocationWarning": "Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
     "general.action.openMap": "Ouvrir avec Maps",
@@ -557,6 +565,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation": "Beginn der Konversation",
     "general.message.new": "Neue Nachricht",
     "general.messsage.jump-recent": "Neue Nachricht im Chat anzeigen",
+    "general.messsage.unsent": "Nachricht nicht gesendet. Versuchen Sie es nochmal",
     "general.message.read-more": "Weiterlesen",
     "general.message.reply.label": "Sie",
     "general.message.reply.image": "Bild",
@@ -594,6 +603,7 @@ export const translationsGeneral: General = {
     "general.action.call": "Wer liebt",
     "general.action.replyMessage": "Antworten",
     "general.action.retryUpload": "Versuch es noch einmal",
+    "general.action.close": "Schließen",
     "general.action.forwardMessage": "Nach vorne",
     "general.action.sendLocationWarning": "Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
     "general.action.openMap": "Mit Karten öffnen",
@@ -691,6 +701,7 @@ export const translationsGeneral: General = {
     "general.message.start-conversation": "Inicio de la conversación",
     "general.message.new": "Nuevo mensaje",
     "general.messsage.jump-recent": "Ir a mensajes recientes",
+    "general.messsage.unsent": "Mensaje no enviado. Intentar otra vez",
     "general.message.read-more": "Lee mas",
     "general.message.reply.label": "Tù",
     "general.message.reply.image": "Imagen",
@@ -728,6 +739,7 @@ export const translationsGeneral: General = {
     "general.action.call": "Quien Ama",
     "general.action.replyMessage": "Respuesta",
     "general.action.retryUpload": "Intentar otra vez",
+    "general.action.close": "Cerrar",
     "general.action.forwardMessage": "Hacia adelante",
     "general.action.sendLocationWarning": "Para enviar la ubicación, ingrese la dirección completa o seleccione la sugerida.",
     "general.action.openMap": "Abrir con Mapas",
