@@ -134,6 +134,7 @@ export interface Translations {
   "general.label.login.here": string;
   "general.label.sendamessage": string;
   "general.label.startacall": string;
+  "general.label.addMember": string;
 }
 
 interface General {
@@ -280,6 +281,7 @@ export const translationsGeneral: General = {
     "general.label.login.here": "Accedi qui",
     "general.label.sendamessage": "Invia un messaggio",
     "general.label.startacall": "Inizia una chiamata",
+    "general.label.addMember": "Aggiungi membro",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -417,6 +419,7 @@ export const translationsGeneral: General = {
     "general.label.login.here": "Login here",
     "general.label.sendamessage": "Send a Message",
     "general.label.startacall": "Start a Call",
+    "general.label.addMember": "Add member",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -554,6 +557,7 @@ export const translationsGeneral: General = {
     "general.label.login.here": "Connectez-vous ici",
     "general.label.sendamessage": "Envoyer un message",
     "general.label.startacall": "Démarrer un appel",
+    "general.label.addMember": "Ajouter un membre",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -691,6 +695,7 @@ export const translationsGeneral: General = {
     "general.label.login.here": "Hier anmelden",
     "general.label.sendamessage": "Eine Nachricht schicken",
     "general.label.startacall": "Anruf starten",
+    "general.label.addMember": "Mitglied hinzufügen",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -828,6 +833,7 @@ export const translationsGeneral: General = {
     "general.label.login.here": "Entre aquí",
     "general.label.sendamessage": "Enviar un mensaje",
     "general.label.startacall": "Iniciar una llamada",
+    "general.label.addMember": "Añadir miembro",
   },
 };
 
