@@ -135,6 +135,8 @@ export interface Translations {
   "general.label.sendamessage": string;
   "general.label.startacall": string;
   "general.label.addMember": string;
+  "general.label.welcomeScreen": string;
+  "general.label.welcomeDescription": string;
 }
 
 interface General {
@@ -282,6 +284,8 @@ export const translationsGeneral: General = {
     "general.label.sendamessage": "Invia un messaggio",
     "general.label.startacall": "Inizia una chiamata",
     "general.label.addMember": "Aggiungi membro",
+    "general.label.welcomeScreen": "Benvenuto in Exentriq Talk",
+    "general.label.welcomeDescription": "Inizia a :chattare con qualcuno :premendo-qui !",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -420,6 +424,8 @@ export const translationsGeneral: General = {
     "general.label.sendamessage": "Send a Message",
     "general.label.startacall": "Start a Call",
     "general.label.addMember": "Add member",
+    "general.label.welcomeScreen": "Welcome to Exentriq Talk",
+    "general.label.welcomeDescription": "Start :chatting with someone by :pressing-here !",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -558,6 +564,8 @@ export const translationsGeneral: General = {
     "general.label.sendamessage": "Envoyer un message",
     "general.label.startacall": "Démarrer un appel",
     "general.label.addMember": "Ajouter un membre",
+    "general.label.welcomeScreen": "Bienvenue sur Exentriq Talk",
+    "general.label.welcomeDescription": "Commencer à :discuter avec quelqu'un en :appuyant-ici !",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -696,6 +704,8 @@ export const translationsGeneral: General = {
     "general.label.sendamessage": "Eine Nachricht schicken",
     "general.label.startacall": "Anruf starten",
     "general.label.addMember": "Mitglied hinzufügen",
+    "general.label.welcomeScreen": "Willkommen bei Exentriq Talk",
+    "general.label.welcomeDescription": "Starten Sie den :chat mit jemandem, indem Sie :hier drücken !",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -834,6 +844,8 @@ export const translationsGeneral: General = {
     "general.label.sendamessage": "Enviar un mensaje",
     "general.label.startacall": "Iniciar una llamada",
     "general.label.addMember": "Añadir miembro",
+    "general.label.welcomeScreen": "Bienvenido a Exentriq Talk",
+    "general.label.welcomeDescription": "Comience a :chatear con alguien :presionando-aquí !",
   },
 };
 
