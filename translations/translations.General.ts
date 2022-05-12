@@ -57,6 +57,8 @@ export interface Translations {
   "general.action.openGMap": string;
   "general.action.openWaze": string;
   "general.action.task": string;
+  "general.action.open": string;
+  "general.action.share": string;
   "general.label.forwardedMessage": string;
   "general.label.searchMessages": string;
   "general.label.chatList": string;
@@ -203,6 +205,8 @@ export const translationsGeneral: General = {
     "general.action.forwardMessage": "Inoltra",
     "general.action.sendLocationWarning": "Per inviare la localizzazione, inserire l'indirizzo completo o selezionare quello suggerito.",
     "general.action.openMap": "Apri con Mappe",
+    "general.action.open": "Apri",
+    "general.action.share": "Condividi",
     "general.action.openGMap": "Apri con Google Maps",
     "general.action.openWaze": "Apri con Waze",
     "general.action.task": "Task",
@@ -343,6 +347,8 @@ export const translationsGeneral: General = {
     "general.action.forwardMessage": "Forward",
     "general.action.sendLocationWarning": "To send the location, enter the full address or select the one suggested.",
     "general.action.openMap": "Open with Maps",
+    "general.action.open": "Open",
+    "general.action.share": "Share",
     "general.action.openGMap": "Open with Google Maps",
     "general.action.openWaze": "Open with Waze",
     "general.action.task": "Task",
@@ -483,6 +489,8 @@ export const translationsGeneral: General = {
     "general.action.forwardMessage": "Transmettre",
     "general.action.sendLocationWarning": "Pour envoyer l'emplacement, entrez l'adresse complète ou sélectionnez celle suggérée.",
     "general.action.openMap": "Ouvrir avec Maps",
+    "general.action.open": "Ouvrir",
+    "general.action.share": "Partager",
     "general.action.openGMap": "Ouvrir avec Google Maps",
     "general.action.openWaze": "Ouvrir avec Waze",
     "general.action.task": "Task",
@@ -623,6 +631,8 @@ export const translationsGeneral: General = {
     "general.action.forwardMessage": "Nach vorne",
     "general.action.sendLocationWarning": "Um den Standort zu senden, geben Sie die vollständige Adresse ein oder wählen Sie die vorgeschlagene aus.",
     "general.action.openMap": "Mit Karten öffnen",
+    "general.action.open": "Öffnen",
+    "general.action.share": "Teilen",
     "general.action.openGMap": "Mit Google Maps öffnen",
     "general.action.openWaze": "Öffnen mit waze",
     "general.action.task": "Task",
@@ -780,6 +790,8 @@ export const translationsGeneral: General = {
     "general.label.removeTranslation": "¿Quieres eliminar la traducción de este chat?",
     "general.label.yes": "Si",
     "general.label.no": "No",
+    "general.action.open": "Abrir",
+    "general.action.share": "Compartir",
     "general.label.addNewGroup": "Nuevo grupo",
     "general.label.nothingFound": "Nada Encontrado",
     "general.label.searchUser": "Usuario de búsqueda",
