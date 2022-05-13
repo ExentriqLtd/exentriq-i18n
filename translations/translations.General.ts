@@ -84,6 +84,8 @@ export interface Translations {
   "general.label.languageSelect": string;
   "general.label.permissionLocation": string;
   "general.label.passwordContainCharacterError": string;
+  "general.label.usernameempty": string;
+  "general.label.emailvalid": string;
   "general.label.password-confirmError": string;
   "general.label.SubPermissionLocation": string;
   "general.label.noAudioRecording": string;
@@ -240,6 +242,8 @@ export const translationsGeneral: General = {
     "general.label.languageSelect": "Seleziona Lingua",
     "general.label.permissionLocation": "Non ha accesso alla tua posizione.",
     "general.label.passwordContainCharacterError":  "- La password deve contenere almeno un numero, una lettera e un carattere speciale (!, @, #, $, %, ^, &, *, (, ), _, + ).\n - La password deve essere lunga almeno 8 caratteri",
+    "general.label.usernameempty": "Il nome utente non può essere vuoto",
+    "general.label.emailvalid": "Email non valida",
     "general.label.SubPermissionLocation": "Abilita l'accesso, tocca impostazioni>Posizione",
     "general.label.invited": "Invitato",
     "general.label.busy": "Occupato",
@@ -386,6 +390,8 @@ export const translationsGeneral: General = {
     "general.label.languageSelect": "Select Language",
     "general.label.permissionLocation": "He has no access to your location.",
     "general.label.passwordContainCharacterError":  "- Password must contain at least one number, one letter and a special character (!, @, #, $, %, ^, &, *, (, ), _, + )\n - Password must be at least 8 characters in length",
+    "general.label.usernameempty": "Username cannot be empty",
+    "general.label.emailvalid": "Email not valid",
     "general.label.SubPermissionLocation": "Enable access, tap Settings> Location",
     "general.label.invited": "Invited",
     "general.label.busy": "Busy",
@@ -534,6 +540,8 @@ export const translationsGeneral: General = {
     "general.label.languageSelect": "Selectioner Langue",
     "general.label.permissionLocation": "Il n'a pas accès à votre position.",
     "general.label.passwordContainCharacterError":  "- Le mot de passe doit contenir au moins un chiffre, une lettre et un caractère spécial (!, @, #, $, %, ^, &, *, (, ), _, + )\n - Le mot de passe doit comporter au moins 8 caractères",
+    "general.label.usernameempty": "Le nom d'utilisateur ne peut pas être vide",
+    "general.label.emailvalid": "E-mail non valide",
     "general.label.SubPermissionLocation": "Activer l'accès, appuyez sur Paramètres> Emplacement",
     "general.meet.invite": "Inviter",
     "general.meet.to-this-call": "à cet appel.",
@@ -680,6 +688,8 @@ export const translationsGeneral: General = {
     "general.label.languageSelect": "Sprache auswählen",
     "general.label.permissionLocation": "Es hat keinen Zugriff auf Ihren Standort.",
     "general.label.passwordContainCharacterError":  "- Das Passwort muss mindestens eine Zahl, einen Buchstaben und ein Sonderzeichen enthalten (!, @, #, $, %, ^, &, *, (, ), _, + )\n - Das Passwort muss mindestens 8 Zeichen lang sein",
+    "general.label.usernameempty": "Der Benutzername darf nicht leer sein",
+    "general.label.emailvalid": "E-Mail ungültig",
     "general.label.SubPermissionLocation": "Aktivieren Sie den Zugriff, tippen Sie auf Einstellungen> Standort",
     "general.meet.inProgress": "Anruf in Arbeit",
     "general.meet.another-call-is-in-progress": "Ein weiterer Anruf läuft",
@@ -825,6 +835,8 @@ export const translationsGeneral: General = {
     "general.label.languageSelect": "Seleccione el idioma",
     "general.label.permissionLocation": "No tiene acceso a tu ubicación.",
     "general.label.passwordContainCharacterError":  "- La contraseña debe contener al menos un número, una letra y un carácter especial (!, @, #, $, %, ^, &, *, (, ), _, + )\n - La contraseña debe tener al menos 8 caracteres de longitud",
+    "general.label.usernameempty": "El nombre de usuario no puede estar vacío",
+    "general.label.emailvalid": "Correo electrónico no válido",
     "general.label.password-confirmError": "Las contraseñas no coinciden",
     "general.label.SubPermissionLocation": "Active el acceso, toque Configuración> Ubicación",
     "general.meet.inProgress": "Llamada en progreso",
