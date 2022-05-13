@@ -83,8 +83,11 @@ export interface Translations {
   "general.label.searchLanguage": string;
   "general.label.languageSelect": string;
   "general.label.permissionLocation": string;
+  "general.label.passwordContainCharacterError": string;
+  "general.label.password-confirmError": string;
   "general.label.SubPermissionLocation": string;
   "general.label.noAudioRecording": string;
+  "general.label.password":string;
   "general.meet.inProgress": string;
   "general.meet.another-call-is-in-progress": string;
   "general.meet.call": string;
@@ -155,8 +158,8 @@ export const translationsGeneral: General = {
   it: {
     "general.message.connecting": "Connessione in corso...",
     "general.message.signup-success": "Account creato, controlla la tua email",
-    "general.message.forgot-password-success":
-      "Controlla la tua email per cambiare password",
+    "general.message.forgot-password-success": 
+    "Controlla la tua email per cambiare password",
     "general.message.no-calls": "Nessuna chiamata effettuata",
     "general.message.empty-messages": "Nessun messaggio ricevuto",
     "general.message.loading": "Caricamento in corso...",
@@ -191,6 +194,7 @@ export const translationsGeneral: General = {
     "general.label.no-results": "Nessun risultato trovato",
     "general.label.redirectEDO": "Questa funzione è disponibile su",
     "general.label.exentriqEDO": "Exentriq EDO",
+    "general.label.password-confirmError": "Le password non corrispondono",
     "general.label.open": "Apri",
     "general.action.choose": "Scegliere un'opzione",
     "general.action.location": "Posizione",
@@ -235,6 +239,7 @@ export const translationsGeneral: General = {
     "general.label.searchLanguage": "Cerca lingua",
     "general.label.languageSelect": "Seleziona Lingua",
     "general.label.permissionLocation": "Non ha accesso alla tua posizione.",
+    "general.label.passwordContainCharacterError":  "- La password deve contenere almeno un numero, una lettera e un carattere speciale (!, @, #, $, %, ^, &, *, (, ), _, + ).\n - La password deve essere lunga almeno 8 caratteri",
     "general.label.SubPermissionLocation": "Abilita l'accesso, tocca impostazioni>Posizione",
     "general.label.invited": "Invitato",
     "general.label.busy": "Occupato",
@@ -336,6 +341,7 @@ export const translationsGeneral: General = {
     "general.label.redirectEDO": "This feature is available on",
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.open": "Open",
+    "general.label.password-confirmError": "Passwords do not match",
     "general.action.choose": "Choose an option",
     "general.action.location": "Location",
     "general.action.camera": "Camera",
@@ -379,6 +385,7 @@ export const translationsGeneral: General = {
     "general.label.searchLanguage": "Search Language",
     "general.label.languageSelect": "Select Language",
     "general.label.permissionLocation": "He has no access to your location.",
+    "general.label.passwordContainCharacterError":  "- Password must contain at least one number, one letter and a special character (!, @, #, $, %, ^, &, *, (, ), _, + )\n - Password must be at least 8 characters in length",
     "general.label.SubPermissionLocation": "Enable access, tap Settings> Location",
     "general.label.invited": "Invited",
     "general.label.busy": "Busy",
@@ -478,6 +485,7 @@ export const translationsGeneral: General = {
     "general.label.errors": "Ops! Le serveur est peut-être en panne :(",
     "general.label.no-results": "Aucun résultat",
     "general.label.redirectEDO": "Cette fonctionnalité est disponible sur",
+    "general.label.password-confirmError": "Les mots de passe ne correspondent pas",
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.open": "Ouvrir",
     "general.action.choose": "Choisis une option",
@@ -525,6 +533,7 @@ export const translationsGeneral: General = {
     "general.label.searchLanguage": "Rechercher Langue",
     "general.label.languageSelect": "Selectioner Langue",
     "general.label.permissionLocation": "Il n'a pas accès à votre position.",
+    "general.label.passwordContainCharacterError":  "- Le mot de passe doit contenir au moins un chiffre, une lettre et un caractère spécial (!, @, #, $, %, ^, &, *, (, ), _, + )\n - Le mot de passe doit comporter au moins 8 caractères",
     "general.label.SubPermissionLocation": "Activer l'accès, appuyez sur Paramètres> Emplacement",
     "general.meet.invite": "Inviter",
     "general.meet.to-this-call": "à cet appel.",
@@ -624,6 +633,7 @@ export const translationsGeneral: General = {
     "general.label.redirectEDO": "Esta función está disponible en",
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.open": "Offen",
+    "general.label.password-confirmError": "Passwörter stimmen nicht überein",
     "general.action.choose": "Wähle eine Option",
     "general.action.location": "Position",
     "general.action.camera": "Kamera",
@@ -669,6 +679,7 @@ export const translationsGeneral: General = {
     "general.label.searchLanguage": "Sprache suchen",
     "general.label.languageSelect": "Sprache auswählen",
     "general.label.permissionLocation": "Es hat keinen Zugriff auf Ihren Standort.",
+    "general.label.passwordContainCharacterError":  "- Das Passwort muss mindestens eine Zahl, einen Buchstaben und ein Sonderzeichen enthalten (!, @, #, $, %, ^, &, *, (, ), _, + )\n - Das Passwort muss mindestens 8 Zeichen lang sein",
     "general.label.SubPermissionLocation": "Aktivieren Sie den Zugriff, tippen Sie auf Einstellungen> Standort",
     "general.meet.inProgress": "Anruf in Arbeit",
     "general.meet.another-call-is-in-progress": "Ein weiterer Anruf läuft",
@@ -813,6 +824,8 @@ export const translationsGeneral: General = {
     "general.label.searchLanguage": "Idioma de búsqueda",
     "general.label.languageSelect": "Seleccione el idioma",
     "general.label.permissionLocation": "No tiene acceso a tu ubicación.",
+    "general.label.passwordContainCharacterError":  "- La contraseña debe contener al menos un número, una letra y un carácter especial (!, @, #, $, %, ^, &, *, (, ), _, + )\n - La contraseña debe tener al menos 8 caracteres de longitud",
+    "general.label.password-confirmError": "Las contraseñas no coinciden",
     "general.label.SubPermissionLocation": "Active el acceso, toque Configuración> Ubicación",
     "general.meet.inProgress": "Llamada en progreso",
     "general.meet.another-call-is-in-progress": "Hay otra llamada en curso",

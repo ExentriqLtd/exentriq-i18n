@@ -11,6 +11,7 @@ export interface Translations {
   "form.signup.email": string;
   "form.signup.username": string;
   "form.signup.password": string;
+  "form.signup.confirm-password": string;
   "form.signup.button": string;
   "form.reset-password.email": string;
   "form.reset-password.button": string;
@@ -51,6 +52,7 @@ export const translationsForm: Form = {
     "form.signup.email": "La tua email",
     "form.signup.username": "Crea Username",
     "form.signup.password": "Crea Password",
+    "form.signup.confirm-password": "Conferma Password",
     "form.signup.button": "Crea Account",
     "form.reset-password.email": "Nome Utente o email",
     "form.reset-password.button": "Invia",
@@ -81,6 +83,7 @@ export const translationsForm: Form = {
     "form.signup.email": "Your email",
     "form.signup.username": "Create Username",
     "form.signup.password": "Create Password",
+    "form.signup.confirm-password": "Confirm Password",
     "form.signup.button": "Sign Up",
     "form.reset-password.email": "Username or email",
     "form.reset-password.button": "Send",
@@ -110,6 +113,7 @@ export const translationsForm: Form = {
     "form.signup.email": "Votre e-mail",
     "form.signup.username": "Créer un nom d'utilisateur",
     "form.signup.password": "Créer un mot de passe",
+    "form.signup.confirm-password": "Confirmez le mot de passe",
     "form.signup.button": "S'inscriress",
     "form.reset-password.email": "Nom d'utilisateur ou email",
     "form.reset-password.button": "Envoyer",
@@ -139,6 +143,7 @@ export const translationsForm: Form = {
     "form.signup.email": "Deine E-Mail",
     "form.signup.username": "Erstelle einen Benutzernamen",
     "form.signup.password": "Passwort erstellen",
+    "form.signup.confirm-password": "Bestätige das Passwort",
     "form.signup.button": "Anmeldung",
     "form.reset-password.email": "Benutzername oder E-Mail-Adresse",
     "form.reset-password.button": "Senden",
@@ -168,6 +173,7 @@ export const translationsForm: Form = {
     "form.signup.email": "Tu correo electrónico",
     "form.signup.username": "Crear nombre de usuario",
     "form.signup.password": "Crear contraseña",
+    "form.signup.confirm-password": "Confirmar Contraseña",
     "form.signup.button": "Inscribirse",
     "form.reset-password.email": "Nombre de usuario o email",
     "form.reset-password.button": "Enviar",
