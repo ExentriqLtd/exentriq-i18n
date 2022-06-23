@@ -42,6 +42,7 @@ export interface Translations {
   "general.action.choose": string;
   "general.action.location": string;
   "general.action.camera": string;
+  "general.action.showFile": string;
   "general.action.call": string;
   "general.action.library": string;
   "general.action.browse": string;
@@ -202,6 +203,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Scegliere un'opzione",
     "general.action.location": "Posizione",
     "general.action.camera": "Fotocamera",
+    "general.action.showFile": "Visualizza file",
     "general.action.call": "Chiama",
     "general.action.library": "Libreria foto e video",
     "general.action.browse": "Browse",
@@ -351,6 +353,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Choose an option",
     "general.action.location": "Location",
     "general.action.camera": "Camera",
+    "general.action.showFile": "View files",
     "general.action.call": "Call",
     "general.action.library": "Library",
     "general.action.browse": "Browse",
@@ -500,6 +503,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Choisis une option",
     "general.action.location": "Position",
     "general.action.camera": "Caméra",
+    "general.action.showFile": "Afficher les fichiers",
     "general.action.library": "Depuis la galérie",
     "general.action.call": "Appel",
     "general.action.browse": "Browse",
@@ -649,6 +653,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Wähle eine Option",
     "general.action.location": "Position",
     "general.action.camera": "Kamera",
+    "general.action.showFile": "Dateien anzeigen",
     "general.action.library": "Aus der Bibliothek",
     "general.action.browse": "Durchsuche",
     "general.action.cancel": "Abbrechen",
@@ -797,6 +802,7 @@ export const translationsGeneral: General = {
     "general.action.choose": "Elija una opción",
     "general.action.location": "Posición",
     "general.action.camera": "De la cámara",
+    "general.action.showFile": "Archivos de vista",
     "general.action.library": "De la Galéria",
     "general.action.browse": "Navegar",
     "general.action.cancel": "Cancelar",
