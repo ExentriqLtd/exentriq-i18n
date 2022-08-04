@@ -98,6 +98,7 @@ export interface Translations {
   "general.meet.invite": string;
   "general.label.busy": string;
   "general.meet.to-this-call": string;
+  "general.meet.joinToThisCall": string;
   "general.meet.is-calling": string;
   "general.meet.would-you-like-to-hangup": string;
   "general.meet.hangup": string;
@@ -256,6 +257,7 @@ export const translationsGeneral: General = {
     "general.meet.call": "Talk Call",
     "general.meet.invite": "Invita",
     "general.meet.to-this-call": "a questa chiamata",
+    "general.meet.joinToThisCall":"Vuoi aprire la video chiamata?",
     "general.meet.is-calling": "stà chiamando",
     "general.meet.would-you-like-to-hangup": "Vuoi riattaccare?",
     "general.meet.hangup": "Riaggancia",
@@ -402,6 +404,7 @@ export const translationsGeneral: General = {
     "general.label.invited": "Invited",
     "general.label.busy": "Busy",
     "general.meet.to-this-call": "to this call.",
+    "general.meet.joinToThisCall": "Would you like to open videocall?",
     "general.meet.inProgress": "Call in progress",
     "general.meet.another-call-is-in-progress": "Another call is in progress",
     "general.meet.call": "Meet Call",
@@ -553,6 +556,7 @@ export const translationsGeneral: General = {
     "general.label.SubPermissionLocation": "Activer l'accès, appuyez sur Paramètres> Emplacement",
     "general.meet.invite": "Inviter",
     "general.meet.to-this-call": "à cet appel.",
+    "general.meet.joinToThisCall": "Souhaitez-vous ouvrir un appel vidéo ?",
     "general.meet.inProgress": "Appel en cours",
     "general.meet.another-call-is-in-progress": "Un autre appel est en cours",
     "general.meet.call": "Meet Appel",
@@ -706,6 +710,7 @@ export const translationsGeneral: General = {
     "general.meet.call": "Treffen Anruf",
     "general.meet.invite": "Einladen",
     "general.meet.to-this-call": "zu diesem Anruf.",
+    "general.meet.joinToThisCall": "Möchten Sie einen Videoanruf eröffnen?",
     "general.meet.is-calling": "ruft an",
     "general.meet.would-you-like-to-hangup": "Möchten Sie auflegen?",
     "general.meet.hangup": "Auflegen",
@@ -856,6 +861,7 @@ export const translationsGeneral: General = {
     "general.meet.call": "Meet Llamada",
     "general.meet.invite": "Invitación",
     "general.meet.to-this-call": "a esta llamada.",
+    "general.meet.joinToThisCall": "¿Te gustaría abrir videollamada?",
     "general.meet.is-calling": "esta llamando",
     "general.meet.would-you-like-to-hangup": "¿Quieres colgar?",
     "general.meet.hangup": "Colgar",
