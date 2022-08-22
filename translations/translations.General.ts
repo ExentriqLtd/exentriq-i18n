@@ -149,6 +149,7 @@ export interface Translations {
   "general.label.welcomeDescription": string;
   "general.label.welcomeScreenCalls": string;
   "general.label.welcomeDescriptionCalls": string;
+  "general.label.outOfMemory": string;
 }
 
 interface General {
@@ -309,6 +310,7 @@ export const translationsGeneral: General = {
     "general.label.welcomeDescription": "Inizia a :chattare con qualcuno _premendo-qui !",
     "general.label.welcomeScreenCalls": "Benvenuto in Exentriq Talk",
     "general.label.welcomeDescriptionCalls": "Inizia una :video-call con qualcuno _pressing-here!",
+    "general.label.outOfMemory": "La dimensione del file deve essere inferiore a 20 mb",
   },
   en: {
     "general.message.connecting": "Connecting to server...",
@@ -460,6 +462,7 @@ export const translationsGeneral: General = {
     "general.label.welcomeDescription": "Start :chatting with someone by _pressing-here!",
     "general.label.welcomeScreenCalls": "Welcome to Exentriq Talk",
     "general.label.welcomeDescriptionCalls": "Start a :video-call with someone by _pressing-here!",
+    "general.label.outOfMemory": "File size minor of 20mb",
   },
   fr: {
     "general.message.connecting": "Connexion au serveur...",
@@ -611,6 +614,7 @@ export const translationsGeneral: General = {
     "general.label.welcomeDescription": "Commencer à :discuter avec quelqu'un en _appuyant-ici!",
     "general.label.welcomeScreenCalls": "Bienvenue sur Exentriq Talk",
     "general.label.welcomeDescriptionCalls": "Démarrez un :appel-vidéo avec quelqu'un en _appuyant-ici!",
+    "general.label.outOfMemory": "La taille du fichier doit être inférieure à 20 mb",
   },
   de: {
     "general.message.connecting": "Verbindung zum Server herstellen...",
@@ -762,6 +766,7 @@ export const translationsGeneral: General = {
     "general.label.welcomeDescription": "Starten Sie den :chat mit jemandem, indem Sie _hier-drücken!",
     "general.label.welcomeScreenCalls": "Willkommen bei Exentriq Talk",
     "general.label.welcomeDescriptionCalls": "Starten Sie einen :Videoanruf mit jemandem, indem Sie _hier-drücken!",
+    "general.label.outOfMemory": "Die Dateigröße muss weniger als 20 MB betragen",
   },
   es: {
     "general.message.connecting": "Conectando al servidor...",
@@ -913,6 +918,7 @@ export const translationsGeneral: General = {
     "general.label.welcomeDescription": "Comience a :chatear con alguien _presionando-aquí!",
     "general.label.welcomeScreenCalls": "Bienvenido a Exentriq Talk",
     "general.label.welcomeDescriptionCalls": "¡Inicia una :videollamada con alguien _presionando-aquí!",
+    "general.label.outOfMemory": "El tamaño del archivo debe ser inferior a 20 mb",
   },
 };
 
