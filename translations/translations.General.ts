@@ -39,6 +39,7 @@ export interface Translations {
   "general.label.redirectEDO": string;
   "general.label.exentriqEDO": string;
   "general.label.open": string;
+  "general.label.unread": string;
   "general.action.choose": string;
   "general.action.location": string;
   "general.action.camera": string;
@@ -203,6 +204,7 @@ export const translationsGeneral: General = {
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.password-confirmError": "Le password non corrispondono",
     "general.label.open": "Apri",
+    "general.label.unread": "Non letto",
     "general.action.choose": "Scegliere un'opzione",
     "general.action.location": "Posizione",
     "general.action.camera": "Fotocamera",
@@ -355,6 +357,7 @@ export const translationsGeneral: General = {
     "general.label.redirectEDO": "This feature is available on",
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.open": "Open",
+    "general.label.unread": "Unread",
     "general.label.password-confirmError": "Passwords do not match",
     "general.action.choose": "Choose an option",
     "general.action.location": "Location",
@@ -509,6 +512,7 @@ export const translationsGeneral: General = {
     "general.label.password-confirmError": "Les mots de passe ne correspondent pas",
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.open": "Ouvrir",
+    "general.label.unread": "Non lu",
     "general.action.choose": "Choisis une option",
     "general.action.location": "Position",
     "general.action.camera": "Caméra",
@@ -661,6 +665,7 @@ export const translationsGeneral: General = {
     "general.label.redirectEDO": "Esta función está disponible en",
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.open": "Offen",
+    "general.label.unread": "Ungelesen",
     "general.label.password-confirmError": "Passwörter stimmen nicht überein",
     "general.action.choose": "Wähle eine Option",
     "general.action.location": "Position",
@@ -814,6 +819,7 @@ export const translationsGeneral: General = {
     "general.label.redirectEDO": "Diese Funktion ist verfügbar auf",
     "general.label.exentriqEDO": "Exentriq EDO",
     "general.label.open": "Abre",
+    "general.label.unread": "No leído",
     "general.action.choose": "Elija una opción",
     "general.action.location": "Posición",
     "general.action.camera": "De la cámara",
